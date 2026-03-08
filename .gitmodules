@@ -46,3 +46,6 @@
 [submodule "themes/mkdocs"]
 	path = themes/mkdocs
 	url = https://github.com/aaronedev/violet-void-theme_mkdocs.git
+[submodule "themes/netcup"]
+	path = themes/netcup
+	url = https://github.com/aaronedev/violet-void-theme_netcup.git
