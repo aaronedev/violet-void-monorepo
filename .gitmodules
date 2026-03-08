@@ -73,3 +73,24 @@
 [submodule "themes/wofi"]
 	path = themes/wofi
 	url = https://github.com/aaronedev/violet-void-theme_wofi.git
+[submodule "themes/dircolors"]
+	path = themes/dircolors
+	url = https://github.com/aaronedev/violet-void-theme_dircolors.git
+[submodule "themes/termux"]
+	path = themes/termux
+	url = https://github.com/aaronedev/violet-void-theme_termux.git
+[submodule "themes/wezterm"]
+	path = themes/wezterm
+	url = https://github.com/aaronedev/violet-void-theme_wezterm.git
+[submodule "themes/cava"]
+	path = themes/cava
+	url = https://github.com/aaronedev/violet-void-theme_cava.git
+[submodule "themes/fish"]
+	path = themes/fish
+	url = https://github.com/aaronedev/violet-void-theme_fish.git
+[submodule "themes/iterm"]
+	path = themes/iterm
+	url = https://github.com/aaronedev/violet-void-theme_iterm.git
+[submodule "themes/xfceterm"]
+	path = themes/xfceterm
+	url = https://github.com/aaronedev/violet-void-theme_xfceterm.git

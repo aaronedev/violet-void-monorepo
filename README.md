@@ -5,7 +5,7 @@
 Violet Void is a cohesive color palette designed to bring visual harmony across your entire desktop environment — from terminal emulators to web browsers, from code editors to system UI.
 
 ![License](https://img.shields.io/github/license/aaronedev/violet-void-monorepo?color=7c60d1)
-![Themes](https://img.shields.io/badge/themes-14+-7c60d1)
+![Themes](https://img.shields.io/badge/themes-30+-7c60d1)
 ![Dark Mode](https://img.shields.io/badge/dark%20mode-yes-0e0e0e?labelColor=0e0e0e&color=7c60d1)
 
 ## 🌈 Color Palette
@@ -75,6 +75,13 @@ Violet Void is a cohesive color palette designed to bring visual harmony across 
 | [eza](./themes/eza) | YAML | [View](./themes/eza) |
 | [Tailspin](./themes/tailspin) | TOML | [View](./themes/tailspin) |
 | [Wofi](./themes/wofi) | CSS | [View](./themes/wofi) |
+| [dircolors](./themes/dircolors) | LS_COLORS | [View](./themes/dircolors) |
+| [Termux](./themes/termux) | Properties | [View](./themes/termux) |
+| [WezTerm](./themes/wezterm) | TOML | [View](./themes/wezterm) |
+| [Cava](./themes/cava) | Config | [View](./themes/cava) |
+| [Fish](./themes/fish) | Fish | [View](./themes/fish) |
+| [iTerm2](./themes/iterm) | itermscolors | [View](./themes/iterm) |
+| [XFCE Terminal](./themes/xfceterm) | Theme | [View](./themes/xfceterm) |
 
 ## 🚀 Quick Start
 
