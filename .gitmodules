@@ -49,3 +49,27 @@
 [submodule "themes/netcup"]
 	path = themes/netcup
 	url = https://github.com/aaronedev/violet-void-theme_netcup.git
+[submodule "themes/atuin"]
+	path = themes/atuin
+	url = https://github.com/aaronedev/violet-void-theme_atuin.git
+[submodule "themes/waybar"]
+	path = themes/waybar
+	url = https://github.com/aaronedev/violet-void-theme_waybar.git
+[submodule "themes/rofi"]
+	path = themes/rofi
+	url = https://github.com/aaronedev/violet-void-theme_rofi.git
+[submodule "themes/aerc"]
+	path = themes/aerc
+	url = https://github.com/aaronedev/violet-void-theme_aerc.git
+[submodule "themes/clipse"]
+	path = themes/clipse
+	url = https://github.com/aaronedev/violet-void-theme_clipse.git
+[submodule "themes/eza"]
+	path = themes/eza
+	url = https://github.com/aaronedev/violet-void-theme_eza.git
+[submodule "themes/tailspin"]
+	path = themes/tailspin
+	url = https://github.com/aaronedev/violet-void-theme_tailspin.git
+[submodule "themes/wofi"]
+	path = themes/wofi
+	url = https://github.com/aaronedev/violet-void-theme_wofi.git

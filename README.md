@@ -67,6 +67,14 @@ Violet Void is a cohesive color palette designed to bring visual harmony across 
 | [Crackboard](./themes/crackboard) | CSS | [View](./themes/crackboard) |
 | [Yazi](./themes/yazi) | TOML | [View](./themes/yazi) |
 | [MkDocs](./themes/mkdocs) | CSS | [View](./themes/mkdocs) |
+| [Atuin](./themes/atuin) | TOML | [View](./themes/atuin) |
+| [Waybar](./themes/waybar) | CSS | [View](./themes/waybar) |
+| [Rofi](./themes/rofi) | RASI | [View](./themes/rofi) |
+| [aerc](./themes/aerc) | Conf | [View](./themes/aerc) |
+| [Clipse](./themes/clipse) | JSON | [View](./themes/clipse) |
+| [eza](./themes/eza) | YAML | [View](./themes/eza) |
+| [Tailspin](./themes/tailspin) | TOML | [View](./themes/tailspin) |
+| [Wofi](./themes/wofi) | CSS | [View](./themes/wofi) |
 
 ## 🚀 Quick Start
 
