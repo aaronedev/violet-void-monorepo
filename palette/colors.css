@@ -1,0 +1,32 @@
+/* Violet Void Color Palette - CSS Variables */
+:root {
+  /* Backgrounds */
+  --vv-bg: #050505;
+  --vv-bg-dark: #0e0e0e;
+  --vv-bg-highlight: #191919;
+  --vv-bg-selection: #0f0f0f;
+  --vv-black: #181818;
+  
+  /* Foregrounds */
+  --vv-fg: #f0f0f5;
+  --vv-fg-dark: #303030;
+  --vv-fg-muted: #414141;
+  --vv-fg-comment: #4c4c4c;
+  --vv-white: #e7e7e7;
+  
+  /* Accents */
+  --vv-red: #ff1a67;
+  --vv-red-bright: #ff004b;
+  --vv-green: #42ff97;
+  --vv-green-bright: #42ffad;
+  --vv-blue: #29adff;
+  --vv-blue-bright: #c7b8ff;
+  --vv-cyan: #00a8a4;
+  --vv-cyan-bright: #00fff9;
+  --vv-magenta: #fd007f;
+  --vv-magenta-bright: #fd0098;
+  --vv-purple: #7c60d1;
+  --vv-purple-bright: #fd7cff;
+  --vv-orange: #ff7c7e;
+  --vv-yellow: #ffd93d;
+}

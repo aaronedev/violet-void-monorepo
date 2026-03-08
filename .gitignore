@@ -1,0 +1,26 @@
+# Editor
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+dist/
+*.min.css
+*.min.js
+
+# Temp
+*.tmp
+*.temp
+.cache/

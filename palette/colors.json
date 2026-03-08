@@ -1,0 +1,56 @@
+{
+  "name": "violet-void",
+  "description": "Violet Void Theme - A dark purple-tinted color system for unified desktop aesthetics",
+  "version": "1.0.0",
+  "author": "aaronedev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaronedev/violet-void-monorepo"
+  },
+  "backgrounds": {
+    "bg": "#050505",
+    "bgDark": "#0e0e0e", 
+    "bgHighlight": "#191919",
+    "bgSelection": "#0f0f0f",
+    "black": "#181818"
+  },
+  "foregrounds": {
+    "fg": "#f0f0f5",
+    "fgDark": "#303030",
+    "fgMuted": "#414141",
+    "fgComment": "#4c4c4c",
+    "white": "#e7e7e7"
+  },
+  "accents": {
+    "red": "#ff1a67",
+    "redBright": "#ff004b",
+    "green": "#42ff97",
+    "greenBright": "#42ffad",
+    "blue": "#29adff",
+    "blueBright": "#c7b8ff",
+    "cyan": "#00a8a4",
+    "cyanBright": "#00fff9",
+    "magenta": "#fd007f",
+    "magentaBright": "#fd0098",
+    "purple": "#7c60d1",
+    "purpleBright": "#fd7cff",
+    "orange": "#ff7c7e",
+    "yellow": "#ffd93d"
+  },
+  "themes": [
+    { "name": "archwiki", "repo": "violet-void-theme_archwiki", "type": "stylus" },
+    { "name": "chatgpt", "repo": "violet-void-theme_chatgpt", "type": "stylus" },
+    { "name": "telegram", "repo": "violet-void-theme_telegram", "type": "stylus" },
+    { "name": "obsidian", "repo": "violet-void-theme_obsidian", "type": "css" },
+    { "name": "tridactyl", "repo": "violet-void-theme_tridactyl", "type": "css" },
+    { "name": "nvim", "repo": "violet-void-theme_nvim", "type": "lua" },
+    { "name": "terminal", "repo": "violet-void-theme_terminal", "type": "shell" },
+    { "name": "fzf", "repo": "violet-void-theme_fzf", "type": "shell" },
+    { "name": "glow", "repo": "violet-void-theme_glow", "type": "json" },
+    { "name": "geizhals", "repo": "violet-void-theme_geizhals", "type": "stylus" },
+    { "name": "subl", "repo": "violet-void-theme_subl", "type": "tmtheme" },
+    { "name": "crackboard", "repo": "violet-void-theme_crackboard", "type": "css" },
+    { "name": "yazi", "repo": "violet-void-theme_yazi", "type": "toml" },
+    { "name": "mkdocs", "repo": "violet-void-theme_mkdocs", "type": "css" }
+  ]
+}

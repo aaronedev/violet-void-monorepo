@@ -1,0 +1,48 @@
+[submodule "themes/archwiki"]
+	path = themes/archwiki
+	url = https://github.com/aaronedev/violet-void-theme_archwiki.git
+[submodule "themes/chatgpt"]
+	path = themes/chatgpt
+	url = https://github.com/aaronedev/violet-void-theme_chatgpt.git
+[submodule "themes/telegram"]
+	path = themes/telegram
+	url = https://github.com/aaronedev/violet-void-theme_telegram.git
+[submodule "themes/obsidian"]
+	path = themes/obsidian
+	url = https://github.com/aaronedev/violet-void-theme_obsidian.git
+[submodule "themes/tridactyl"]
+	path = themes/tridactyl
+	url = https://github.com/aaronedev/violet-void-theme_tridactyl.git
+[submodule "themes/nvim"]
+	path = themes/nvim
+	url = https://github.com/aaronedev/violet-void-theme_nvim.git
+[submodule "themes/terminal"]
+	path = themes/terminal
+	url = https://github.com/aaronedev/violet-void-theme_terminal.git
+[submodule "themes/fzf"]
+	path = themes/fzf
+	url = https://github.com/aaronedev/violet-void-theme_fzf.git
+[submodule "themes/glow"]
+	path = themes/glow
+	url = https://github.com/aaronedev/violet-void-theme_glow.git
+[submodule "themes/geizhals"]
+	path = themes/geizhals
+	url = https://github.com/aaronedev/violet-void-theme_geizhals.git
+[submodule "themes/subl"]
+	path = themes/subl
+	url = https://github.com/aaronedev/violet-void-theme_subl.git
+[submodule "themes/crackboard"]
+	path = themes/crackboard
+	url = https://github.com/aaronedev/violet-void-theme_crackboard.git
+[submodule "themes/yazi"]
+	path = themes/yazi
+	url = https://github.com/aaronedev/violet-void-theme_yazi.git
+[submodule "themes/palette"]
+	path = themes/palette
+	url = https://github.com/aaronedev/violet-void-theme_palette.git
+[submodule "themes/assets"]
+	path = themes/assets
+	url = https://github.com/aaronedev/violet-void-theme_assets.git
+[submodule "themes/mkdocs"]
+	path = themes/mkdocs
+	url = https://github.com/aaronedev/violet-void-theme_mkdocs.git
