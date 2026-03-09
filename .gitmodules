@@ -94,3 +94,81 @@
 [submodule "themes/xfceterm"]
 	path = themes/xfceterm
 	url = https://github.com/aaronedev/violet-void-theme_xfceterm.git
+[submodule "themes/alacritty"]
+	path = themes/alacritty
+	url = https://github.com/aaronedev/violet-void-theme_alacritty.git
+[submodule "themes/delta"]
+	path = themes/delta
+	url = https://github.com/aaronedev/violet-void-theme_delta.git
+[submodule "themes/discord"]
+	path = themes/discord
+	url = https://github.com/aaronedev/violet-void-theme_discord.git
+[submodule "themes/dunst"]
+	path = themes/dunst
+	url = https://github.com/aaronedev/violet-void-theme_dunst.git
+[submodule "themes/foot"]
+	path = themes/foot
+	url = https://github.com/aaronedev/violet-void-theme_foot.git
+[submodule "themes/fuzzel"]
+	path = themes/fuzzel
+	url = https://github.com/aaronedev/violet-void-theme_fuzzel.git
+[submodule "themes/gitui"]
+	path = themes/gitui
+	url = https://github.com/aaronedev/violet-void-theme_gitui.git
+[submodule "themes/gnome_terminal"]
+	path = themes/gnome_terminal
+	url = https://github.com/aaronedev/violet-void-theme_gnome_terminal.git
+[submodule "themes/helix"]
+	path = themes/helix
+	url = https://github.com/aaronedev/violet-void-theme_helix.git
+[submodule "themes/kitty"]
+	path = themes/kitty
+	url = https://github.com/aaronedev/violet-void-theme_kitty.git
+[submodule "themes/prism"]
+	path = themes/prism
+	url = https://github.com/aaronedev/violet-void-theme_prism.git
+[submodule "themes/process_compose"]
+	path = themes/process_compose
+	url = https://github.com/aaronedev/violet-void-theme_process_compose.git
+[submodule "themes/slack"]
+	path = themes/slack
+	url = https://github.com/aaronedev/violet-void-theme_slack.git
+[submodule "themes/spotify_player"]
+	path = themes/spotify_player
+	url = https://github.com/aaronedev/violet-void-theme_spotify_player.git
+[submodule "themes/st"]
+	path = themes/st
+	url = https://github.com/aaronedev/violet-void-theme_st.git
+[submodule "themes/terminator"]
+	path = themes/terminator
+	url = https://github.com/aaronedev/violet-void-theme_terminator.git
+[submodule "themes/tilix"]
+	path = themes/tilix
+	url = https://github.com/aaronedev/violet-void-theme_tilix.git
+[submodule "themes/tmux"]
+	path = themes/tmux
+	url = https://github.com/aaronedev/violet-void-theme_tmux.git
+[submodule "themes/vim"]
+	path = themes/vim
+	url = https://github.com/aaronedev/violet-void-theme_vim.git
+[submodule "themes/vimium"]
+	path = themes/vimium
+	url = https://github.com/aaronedev/violet-void-theme_vimium.git
+[submodule "themes/windows_terminal"]
+	path = themes/windows_terminal
+	url = https://github.com/aaronedev/violet-void-theme_windows_terminal.git
+[submodule "themes/xresources"]
+	path = themes/xresources
+	url = https://github.com/aaronedev/violet-void-theme_xresources.git
+[submodule "themes/zathura"]
+	path = themes/zathura
+	url = https://github.com/aaronedev/violet-void-theme_zathura.git
+[submodule "themes/zellij"]
+	path = themes/zellij
+	url = https://github.com/aaronedev/violet-void-theme_zellij.git
+[submodule "themes/fish_themes"]
+	path = themes/fish_themes
+	url = https://github.com/aaronedev/violet-void-theme_fish_themes.git
+[submodule "themes/lua"]
+	path = themes/lua
+	url = https://github.com/aaronedev/violet-void-theme_lua.git

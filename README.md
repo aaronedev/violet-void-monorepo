@@ -5,7 +5,7 @@
 Violet Void is a cohesive color palette designed to bring visual harmony across your entire desktop environment — from terminal emulators to web browsers, from code editors to system UI.
 
 ![License](https://img.shields.io/github/license/aaronedev/violet-void-monorepo?color=7c60d1)
-![Themes](https://img.shields.io/badge/themes-30+-7c60d1)
+![Themes](https://img.shields.io/badge/themes-58-7c60d1)
 ![Dark Mode](https://img.shields.io/badge/dark%20mode-yes-0e0e0e?labelColor=0e0e0e&color=7c60d1)
 
 ## 🌈 Color Palette
@@ -82,6 +82,32 @@ Violet Void is a cohesive color palette designed to bring visual harmony across 
 | [Fish](./themes/fish) | Fish | [View](./themes/fish) |
 | [iTerm2](./themes/iterm) | itermscolors | [View](./themes/iterm) |
 | [XFCE Terminal](./themes/xfceterm) | Theme | [View](./themes/xfceterm) |
+| [Alacritty](./themes/alacritty) | TOML | [View](./themes/alacritty) |
+| [Delta](./themes/delta) | Gitconfig | [View](./themes/delta) |
+| [Discord](./themes/discord) | CSS | [View](./themes/discord) |
+| [Dunst](./themes/dunst) | Dunstrc | [View](./themes/dunst) |
+| [Foot](./themes/foot) | INI | [View](./themes/foot) |
+| [Fuzzel](./themes/fuzzel) | INI | [View](./themes/fuzzel) |
+| [GitUI](./themes/gitui) | Ron | [View](./themes/gitui) |
+| [GNOME Terminal](./themes/gnome_terminal) | Dconf | [View](./themes/gnome_terminal) |
+| [Helix](./themes/helix) | TOML | [View](./themes/helix) |
+| [Kitty](./themes/kitty) | Conf | [View](./themes/kitty) |
+| [Prism](./themes/prism) | JS | [View](./themes/prism) |
+| [Process Compose](./themes/process_compose) | YAML | [View](./themes/process_compose) |
+| [Slack](./themes/slack) | Txt | [View](./themes/slack) |
+| [Spotify Player](./themes/spotify_player) | TOML | [View](./themes/spotify_player) |
+| [ST](./themes/st) | Header | [View](./themes/st) |
+| [Terminator](./themes/terminator) | Conf | [View](./themes/terminator) |
+| [Tilix](./themes/tilix) | JSON | [View](./themes/tilix) |
+| [Tmux](./themes/tmux) | Tmux | [View](./themes/tmux) |
+| [Vim](./themes/vim) | VimL | [View](./themes/vim) |
+| [Vimium](./themes/vimium) | CSS | [View](./themes/vimium) |
+| [Windows Terminal](./themes/windows_terminal) | JSON | [View](./themes/windows_terminal) |
+| [XResources](./themes/xresources) | XResources | [View](./themes/xresources) |
+| [Zathura](./themes/zathura) | Zathurarc | [View](./themes/zathura) |
+| [Zellij](./themes/zellij) | KDL | [View](./themes/zellij) |
+| [Fish Themes](./themes/fish_themes) | Theme | [View](./themes/fish_themes) |
+| [Lua](./themes/lua) | Lua | [View](./themes/lua) |
 
 ## 🚀 Quick Start
 
