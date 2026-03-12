@@ -2,7 +2,15 @@
 
 ## High Priority
 
-- [ ] Create unified color token system (style-dictionary or similar)
+- [x] Create unified color token system (style-dictionary) — **DONE 2026-03-12** `STYLE_DICTIONARY_COMMIT`
+  - Created Style Dictionary configuration for unified color tokens
+  - Token structure: backgrounds, foregrounds, accents (base/bright variants)
+  - Output formats: CSS, SCSS, JSON, JavaScript ES6 modules
+  - Configuration: style-dictionary.config.js
+  - Tokens: tokens/colors.json
+  - Build command: npm run build
+  - Documentation: tokens/README.md
+  - Future: Add typography, spacing, semantic tokens
 - [x] Add color accessibility checker script (WCAG contrast validation) - a93cbbf
 - [ ] Automate theme screenshot generation for README
 - [x] Add theme comparison/preview images for README — **DONE 2026-03-12** `63ec827`

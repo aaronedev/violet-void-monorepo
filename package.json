@@ -1,0 +1,14 @@
+{
+  "name": "violet-void-monorepo",
+  "version": "1.0.0",
+  "description": "Violet Void theme monorepo with unified color system",
+  "scripts": {
+    "build": "style-dictionary build",
+    "build:tokens": "node scripts/build-tokens.js"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.3.2"
+  },
+  "keywords": ["theme", "color-scheme", "design-tokens"],
+  "license": "MIT"
+}

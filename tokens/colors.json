@@ -1,0 +1,50 @@
+{
+  "color": {
+    "background": {
+      "base": { "value": "#050505", "description": "Primary background" },
+      "dark": { "value": "#0e0e0e", "description": "Darker background variant" },
+      "highlight": { "value": "#191919", "description": "Highlighted background" },
+      "selection": { "value": "#0f0f0f", "description": "Selection background" },
+      "black": { "value": "#181818", "description": "Black/true black" }
+    },
+    "foreground": {
+      "base": { "value": "#f0f0f5", "description": "Primary foreground text" },
+      "dark": { "value": "#303030", "description": "Darker foreground variant" },
+      "muted": { "value": "#414141", "description": "Muted foreground text" },
+      "comment": { "value": "#4c4c4c", "description": "Comment text color" },
+      "white": { "value": "#e7e7e7", "description": "White/bright text" }
+    },
+    "accent": {
+      "red": {
+        "base": { "value": "#ff1a67", "description": "Red accent" },
+        "bright": { "value": "#ff004b", "description": "Bright red accent" }
+      },
+      "green": {
+        "base": { "value": "#42ff97", "description": "Green accent" },
+        "bright": { "value": "#42ffad", "description": "Bright green accent" }
+      },
+      "blue": {
+        "base": { "value": "#29adff", "description": "Blue accent" },
+        "bright": { "value": "#c7b8ff", "description": "Bright blue accent" }
+      },
+      "cyan": {
+        "base": { "value": "#00a8a4", "description": "Cyan accent" },
+        "bright": { "value": "#00fff9", "description": "Bright cyan accent" }
+      },
+      "magenta": {
+        "base": { "value": "#fd007f", "description": "Magenta accent" },
+        "bright": { "value": "#fd0098", "description": "Bright magenta accent" }
+      },
+      "purple": {
+        "base": { "value": "#7c60d1", "description": "Purple accent (signature color)" },
+        "bright": { "value": "#fd7cff", "description": "Bright purple accent" }
+      },
+      "orange": {
+        "base": { "value": "#ff7c7e", "description": "Orange accent" }
+      },
+      "yellow": {
+        "base": { "value": "#ffd93d", "description": "Yellow accent" }
+      }
+    }
+  }
+}
