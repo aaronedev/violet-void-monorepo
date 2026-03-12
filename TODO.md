@@ -14,15 +14,14 @@
 
 ## Medium Priority
 
-- [ ] Add `tint-shade-generator` for automated palette extensions — **NEW 2026-03-12 from scout**
+- [x] Add `tint-shade-generator` for automated palette extensions — **DONE 2026-03-12** `COMMIT_PLACEHOLDER`
   - Generate tints (lighter) and shades (darker) of base palette colors
-  - Create extended palette with 5-9 variations per base color
+  - Create extended palette with 10 variations per base color (50, 100, ..., 900)
   - Useful for: UI elements that need subtle variations (hover states, borders, backgrounds)
-  - Could use JavaScript/TypeScript for generation
   - Output formats: JSON, CSS custom properties, Tailwind config
-  - Complements existing color-name-lookup tool for semantic naming
-  - Link: Could create custom script or use tools like `tinycolor2`, `color` npm packages
-  - Example: violet-void-primary (base) → violet-void-primary-50, -100, -200, ..., -900
+  - Uses pastel CLI for accurate color manipulation (falls back to manual calculation)
+  - Usage: ./tools/tint-shade-generator.sh [json|css|tailwind|all]
+  - Example: purple-500 (base) → purple-50, -100, -200, ..., -900
 - [x] Add color name lookup tool for semantic naming — **DONE 2026-03-12** `0f93b36`
   - Created tools/color-name-lookup.sh for offline color name lookup
   - Maps hex colors to CSS named colors and Violet Void palette names

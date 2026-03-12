@@ -1,0 +1,299 @@
+/**
+ * Violet Void Extended Palette - CSS Custom Properties
+ * Generated automatically by tint-shade-generator.sh
+ * 
+ * Usage:
+ *   color: var(--violet-void-purple-500);
+ *   background: var(--violet-void-bg-900);
+ */
+
+:root {
+
+  /* black */
+  --violet-void-black-50: #e7e7e7;
+  --violet-void-black-100: #d0d0d0;
+  --violet-void-black-200: #a2a2a2;
+  --violet-void-black-300: #747474;
+  --violet-void-black-400: #464646;
+  --violet-void-black-500: #181818;
+  --violet-void-black-600: #151515;
+  --violet-void-black-700: #131313;
+  --violet-void-black-800: #101010;
+  --violet-void-black-900: #0e0e0e;
+
+  /* cyan */
+  --violet-void-cyan-50: #e5f6f5;
+  --violet-void-cyan-100: #ccedec;
+  --violet-void-cyan-200: #99dcda;
+  --violet-void-cyan-300: #66cac8;
+  --violet-void-cyan-400: #33b9b6;
+  --violet-void-cyan-500: #00a8a4;
+  --violet-void-cyan-600: #009793;
+  --violet-void-cyan-700: #008683;
+  --violet-void-cyan-800: #007572;
+  --violet-void-cyan-900: #006462;
+
+  /* yellow */
+  --violet-void-yellow-50: #fffbeb;
+  --violet-void-yellow-100: #fff7d8;
+  --violet-void-yellow-200: #ffefb1;
+  --violet-void-yellow-300: #ffe88a;
+  --violet-void-yellow-400: #ffe063;
+  --violet-void-yellow-500: #ffd93d;
+  --violet-void-yellow-600: #e5c336;
+  --violet-void-yellow-700: #ccad30;
+  --violet-void-yellow-800: #b2972a;
+  --violet-void-yellow-900: #998224;
+
+  /* blueBright */
+  --violet-void-blueBright-50: #f9f7ff;
+  --violet-void-blueBright-100: #f3f0ff;
+  --violet-void-blueBright-200: #e8e2ff;
+  --violet-void-blueBright-300: #ddd4ff;
+  --violet-void-blueBright-400: #d2c6ff;
+  --violet-void-blueBright-500: #c7b8ff;
+  --violet-void-blueBright-600: #b3a5e5;
+  --violet-void-blueBright-700: #9f93cc;
+  --violet-void-blueBright-800: #8b80b2;
+  --violet-void-blueBright-900: #776e99;
+
+  /* bgHighlight */
+  --violet-void-bgHighlight-50: #e7e7e7;
+  --violet-void-bgHighlight-100: #d1d1d1;
+  --violet-void-bgHighlight-200: #a3a3a3;
+  --violet-void-bgHighlight-300: #757575;
+  --violet-void-bgHighlight-400: #474747;
+  --violet-void-bgHighlight-500: #191919;
+  --violet-void-bgHighlight-600: #161616;
+  --violet-void-bgHighlight-700: #141414;
+  --violet-void-bgHighlight-800: #111111;
+  --violet-void-bgHighlight-900: #0f0f0f;
+
+  /* fg */
+  --violet-void-fg-50: #fdfdfd;
+  --violet-void-fg-100: #fcfcfd;
+  --violet-void-fg-200: #f9f9fb;
+  --violet-void-fg-300: #f6f6f9;
+  --violet-void-fg-400: #f3f3f7;
+  --violet-void-fg-500: #f0f0f5;
+  --violet-void-fg-600: #d8d8dc;
+  --violet-void-fg-700: #c0c0c4;
+  --violet-void-fg-800: #a8a8ab;
+  --violet-void-fg-900: #909093;
+
+  /* orange */
+  --violet-void-orange-50: #fff1f1;
+  --violet-void-orange-100: #ffe4e5;
+  --violet-void-orange-200: #ffcacb;
+  --violet-void-orange-300: #ffb0b1;
+  --violet-void-orange-400: #ff9697;
+  --violet-void-orange-500: #ff7c7e;
+  --violet-void-orange-600: #e56f71;
+  --violet-void-orange-700: #cc6364;
+  --violet-void-orange-800: #b25658;
+  --violet-void-orange-900: #994a4b;
+
+  /* cyanBright */
+  --violet-void-cyanBright-50: #e5fffe;
+  --violet-void-cyanBright-100: #ccfffd;
+  --violet-void-cyanBright-200: #99fffc;
+  --violet-void-cyanBright-300: #66fffb;
+  --violet-void-cyanBright-400: #33fffa;
+  --violet-void-cyanBright-500: #00fff9;
+  --violet-void-cyanBright-600: #00e5e0;
+  --violet-void-cyanBright-700: #00ccc7;
+  --violet-void-cyanBright-800: #00b2ae;
+  --violet-void-cyanBright-900: #009995;
+
+  /* blue */
+  --violet-void-blue-50: #e9f6ff;
+  --violet-void-blue-100: #d4eeff;
+  --violet-void-blue-200: #a9deff;
+  --violet-void-blue-300: #7ecdff;
+  --violet-void-blue-400: #53bdff;
+  --violet-void-blue-500: #29adff;
+  --violet-void-blue-600: #249be5;
+  --violet-void-blue-700: #208acc;
+  --violet-void-blue-800: #1c79b2;
+  --violet-void-blue-900: #186799;
+
+  /* bgDark */
+  --violet-void-bgDark-50: #e6e6e6;
+  --violet-void-bgDark-100: #cecece;
+  --violet-void-bgDark-200: #9e9e9e;
+  --violet-void-bgDark-300: #6e6e6e;
+  --violet-void-bgDark-400: #3e3e3e;
+  --violet-void-bgDark-500: #0e0e0e;
+  --violet-void-bgDark-600: #0c0c0c;
+  --violet-void-bgDark-700: #0b0b0b;
+  --violet-void-bgDark-800: #090909;
+  --violet-void-bgDark-900: #080808;
+
+  /* redBright */
+  --violet-void-redBright-50: #ffe5ec;
+  --violet-void-redBright-100: #ffccdb;
+  --violet-void-redBright-200: #ff99b7;
+  --violet-void-redBright-300: #ff6693;
+  --violet-void-redBright-400: #ff336f;
+  --violet-void-redBright-500: #ff004b;
+  --violet-void-redBright-600: #e50043;
+  --violet-void-redBright-700: #cc003c;
+  --violet-void-redBright-800: #b20034;
+  --violet-void-redBright-900: #99002d;
+
+  /* red */
+  --violet-void-red-50: #ffe7ef;
+  --violet-void-red-100: #ffd1e0;
+  --violet-void-red-200: #ffa3c2;
+  --violet-void-red-300: #ff75a3;
+  --violet-void-red-400: #ff4785;
+  --violet-void-red-500: #ff1a67;
+  --violet-void-red-600: #e5175c;
+  --violet-void-red-700: #cc1452;
+  --violet-void-red-800: #b21248;
+  --violet-void-red-900: #990f3d;
+
+  /* purpleBright */
+  --violet-void-purpleBright-50: #fef1ff;
+  --violet-void-purpleBright-100: #fee4ff;
+  --violet-void-purpleBright-200: #fecaff;
+  --violet-void-purpleBright-300: #fdb0ff;
+  --violet-void-purpleBright-400: #fd96ff;
+  --violet-void-purpleBright-500: #fd7cff;
+  --violet-void-purpleBright-600: #e36fe5;
+  --violet-void-purpleBright-700: #ca63cc;
+  --violet-void-purpleBright-800: #b156b2;
+  --violet-void-purpleBright-900: #974a99;
+
+  /* fgComment */
+  --violet-void-fgComment-50: #ececec;
+  --violet-void-fgComment-100: #dbdbdb;
+  --violet-void-fgComment-200: #b7b7b7;
+  --violet-void-fgComment-300: #939393;
+  --violet-void-fgComment-400: #6f6f6f;
+  --violet-void-fgComment-500: #4c4c4c;
+  --violet-void-fgComment-600: #444444;
+  --violet-void-fgComment-700: #3c3c3c;
+  --violet-void-fgComment-800: #353535;
+  --violet-void-fgComment-900: #2d2d2d;
+
+  /* fgMuted */
+  --violet-void-fgMuted-50: #ebebeb;
+  --violet-void-fgMuted-100: #d9d9d9;
+  --violet-void-fgMuted-200: #b3b3b3;
+  --violet-void-fgMuted-300: #8d8d8d;
+  --violet-void-fgMuted-400: #676767;
+  --violet-void-fgMuted-500: #414141;
+  --violet-void-fgMuted-600: #3a3a3a;
+  --violet-void-fgMuted-700: #343434;
+  --violet-void-fgMuted-800: #2d2d2d;
+  --violet-void-fgMuted-900: #272727;
+
+  /* fgDark */
+  --violet-void-fgDark-50: #e9e9e9;
+  --violet-void-fgDark-100: #d5d5d5;
+  --violet-void-fgDark-200: #acacac;
+  --violet-void-fgDark-300: #828282;
+  --violet-void-fgDark-400: #595959;
+  --violet-void-fgDark-500: #303030;
+  --violet-void-fgDark-600: #2b2b2b;
+  --violet-void-fgDark-700: #262626;
+  --violet-void-fgDark-800: #212121;
+  --violet-void-fgDark-900: #1c1c1c;
+
+  /* magentaBright */
+  --violet-void-magentaBright-50: #fee5f4;
+  --violet-void-magentaBright-100: #feccea;
+  --violet-void-magentaBright-200: #fe99d5;
+  --violet-void-magentaBright-300: #fd66c1;
+  --violet-void-magentaBright-400: #fd33ac;
+  --violet-void-magentaBright-500: #fd0098;
+  --violet-void-magentaBright-600: #e30088;
+  --violet-void-magentaBright-700: #ca0079;
+  --violet-void-magentaBright-800: #b1006a;
+  --violet-void-magentaBright-900: #97005b;
+
+  /* white */
+  --violet-void-white-50: #fcfcfc;
+  --violet-void-white-100: #fafafa;
+  --violet-void-white-200: #f5f5f5;
+  --violet-void-white-300: #f0f0f0;
+  --violet-void-white-400: #ebebeb;
+  --violet-void-white-500: #e7e7e7;
+  --violet-void-white-600: #cfcfcf;
+  --violet-void-white-700: #b8b8b8;
+  --violet-void-white-800: #a1a1a1;
+  --violet-void-white-900: #8a8a8a;
+
+  /* bg */
+  --violet-void-bg-50: #e5e5e5;
+  --violet-void-bg-100: #cdcdcd;
+  --violet-void-bg-200: #9b9b9b;
+  --violet-void-bg-300: #696969;
+  --violet-void-bg-400: #373737;
+  --violet-void-bg-500: #050505;
+  --violet-void-bg-600: #040404;
+  --violet-void-bg-700: #040404;
+  --violet-void-bg-800: #030303;
+  --violet-void-bg-900: #030303;
+
+  /* green */
+  --violet-void-green-50: #ebfff4;
+  --violet-void-green-100: #d9ffea;
+  --violet-void-green-200: #b3ffd5;
+  --violet-void-green-300: #8dffc0;
+  --violet-void-green-400: #67ffab;
+  --violet-void-green-500: #42ff97;
+  --violet-void-green-600: #3be587;
+  --violet-void-green-700: #34cc78;
+  --violet-void-green-800: #2eb269;
+  --violet-void-green-900: #27995a;
+
+  /* purple */
+  --violet-void-purple-50: #f1eefa;
+  --violet-void-purple-100: #e4dff5;
+  --violet-void-purple-200: #cabfec;
+  --violet-void-purple-300: #b09fe3;
+  --violet-void-purple-400: #967fda;
+  --violet-void-purple-500: #7c60d1;
+  --violet-void-purple-600: #6f56bc;
+  --violet-void-purple-700: #634ca7;
+  --violet-void-purple-800: #564392;
+  --violet-void-purple-900: #4a397d;
+
+  /* bgSelection */
+  --violet-void-bgSelection-50: #e6e6e6;
+  --violet-void-bgSelection-100: #cfcfcf;
+  --violet-void-bgSelection-200: #9f9f9f;
+  --violet-void-bgSelection-300: #6f6f6f;
+  --violet-void-bgSelection-400: #3f3f3f;
+  --violet-void-bgSelection-500: #0f0f0f;
+  --violet-void-bgSelection-600: #0d0d0d;
+  --violet-void-bgSelection-700: #0c0c0c;
+  --violet-void-bgSelection-800: #0a0a0a;
+  --violet-void-bgSelection-900: #090909;
+
+  /* magenta */
+  --violet-void-magenta-50: #fee5f1;
+  --violet-void-magenta-100: #fecce5;
+  --violet-void-magenta-200: #fe99cb;
+  --violet-void-magenta-300: #fd66b2;
+  --violet-void-magenta-400: #fd3398;
+  --violet-void-magenta-500: #fd007f;
+  --violet-void-magenta-600: #e30072;
+  --violet-void-magenta-700: #ca0065;
+  --violet-void-magenta-800: #b10058;
+  --violet-void-magenta-900: #97004c;
+
+  /* greenBright */
+  --violet-void-greenBright-50: #ebfff6;
+  --violet-void-greenBright-100: #d9ffee;
+  --violet-void-greenBright-200: #b3ffde;
+  --violet-void-greenBright-300: #8dffcd;
+  --violet-void-greenBright-400: #67ffbd;
+  --violet-void-greenBright-500: #42ffad;
+  --violet-void-greenBright-600: #3be59b;
+  --violet-void-greenBright-700: #34cc8a;
+  --violet-void-greenBright-800: #2eb279;
+  --violet-void-greenBright-900: #279967;
+}
