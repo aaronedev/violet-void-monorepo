@@ -41,6 +41,13 @@
   - Could integrate with CI/CD for automated accessibility validation
   - Link: https://github.com/jxnblk/colorable
   - Useful for: ensuring text/background combinations are accessible
+- [ ] Add `theme-finder` for theme discovery and comparison — **NEW 2026-03-12**
+  - Link: https://github.com/mvllow/theme-finder
+  - Search and discover themes from various sources (GitHub, Reddit, etc.)
+  - Compare color palettes side-by-side
+  - Export themes to various formats
+  - Could help with finding inspiration for Violet Void variants
+  - Useful for research when creating new theme ports
 - [ ] Add CI/CD for automated theme validation on PR
 - [ ] Create theme preview web page (GitHub Pages)
 - [ ] Investigate `themer` for multi-app theme generation — **NEW 2026-03-12**
