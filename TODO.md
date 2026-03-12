@@ -43,6 +43,14 @@
   - Base16-builder tool for generating from templates
   - Already has templates for: vim, alacritty, kitty, tmux, fish, zsh, gtk, etc.
   - Would reduce maintenance burden for new app ports
+- [ ] Investigate `wallust` for palette generation from images — **NEW 2026-03-12**
+  - Link: https://github.com/explosion-spirit/wallust
+  - Generates color schemes from images using various algorithms
+  - Could provide inspiration for palette refinements or variant creation
+  - Supports multiple backends: wal, colorthief, haishoku, colorz
+  - Outputs to multiple formats: JSON, TOML, YAML, Xresources, etc.
+  - Could be used to create seasonal/variant palettes from wallpapers
+  - Alternative to manual palette curation for new color variants
 
 ## Low Priority
 
