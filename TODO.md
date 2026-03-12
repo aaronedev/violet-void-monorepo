@@ -47,7 +47,11 @@
 ## Low Priority
 
 - [ ] Add theme migration guide for users switching from other themes
-- [ ] Create contribution templates for new theme ports
+- [x] Create contribution templates for new theme ports — **DONE 2026-03-12** `a1ed312`
+  - Created issue templates: new-theme-request.md, bug-report.md
+  - Created PR template with checklist for theme ports
+  - Updated CONTRIBUTING.md with detailed contribution guidelines
+  - Includes color mapping reference and testing requirements
 - [ ] Add changelog generation automation
 
 ## Completed
