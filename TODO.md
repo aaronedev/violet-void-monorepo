@@ -14,6 +14,16 @@
 
 ## Medium Priority
 
+- [ ] Add color blindness simulation for accessibility testing — **NEW 2026-03-12 from scout**
+  - Simulate how Violet Void palette appears to users with color vision deficiencies
+  - Test for: protanopia (red-blind), deuteranopia (green-blind), tritanopia (blue-blind)
+  - Also test: protanomaly, deuteranomaly, tritanomaly (reduced sensitivity)
+  - Tools: `colorblind` npm package, colormine.org, or custom algorithms
+  - Generate simulated palette exports for documentation
+  - Ensure sufficient contrast and color distinguishability for all users
+  - Complements existing WCAG contrast testing
+  - Could integrate with CI/CD for automated accessibility checks
+  - Useful for: theme accessibility validation and documentation
 - [ ] Add `palette-analyzer` for comprehensive palette analysis — **NEW 2026-03-12**
   - Analyze color harmony (complementary, analogous, triadic, etc.)
   - Calculate color temperature (warm/cool balance)
