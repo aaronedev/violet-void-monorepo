@@ -95,13 +95,20 @@
 
 ## Low Priority
 
-- [ ] Add theme migration guide for users switching from other themes
+- [x] Add theme migration guide for users switching from other themes — **DONE 2026-03-12** `pre-existing`
+  - Already documented in `docs/comparisons/README.md`
+  - Includes color mappings for Catppuccin, Nord, and Dracula
+  - Provides migration tips and feature comparison tables
 - [x] Create contribution templates for new theme ports — **DONE 2026-03-12** `a1ed312`
   - Created issue templates: new-theme-request.md, bug-report.md
   - Created PR template with checklist for theme ports
   - Updated CONTRIBUTING.md with detailed contribution guidelines
   - Includes color mapping reference and testing requirements
-- [ ] Add changelog generation automation
+- [x] Add changelog generation automation — **DONE 2026-03-12** `COMMIT_PLACEHOLDER`
+  - Created tools/generate-changelog.sh for automated changelog generation
+  - Parses conventional commits and categorizes by type
+  - Outputs to CHANGELOG.md in Keep a Changelog format
+  - Usage: ./tools/generate-changelog.sh [--from <tag>] [--to <tag>] [--output <file>]
 
 ## Completed
 
