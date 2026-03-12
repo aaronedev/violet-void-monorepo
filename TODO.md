@@ -16,6 +16,14 @@
 
 - [ ] Add CI/CD for automated theme validation on PR
 - [ ] Create theme preview web page (GitHub Pages)
+- [ ] Investigate `themer` for multi-app theme generation — **NEW 2026-03-12**
+  - Link: https://github.com/mjswensen/themer
+  - Generates themes for 50+ apps from single color scheme
+  - Supports: vim, VS Code, Alacritty, Kitty, iTerm2, Slack, Discord, etc.
+  - Uses JavaScript/TypeScript for color scheme definitions
+  - Could automate violet-void port creation for new applications
+  - Alternative to tinted-theming with more active development
+  - Consider creating violet-void template for themer ecosystem
 - [x] Add color palette export to multiple formats (ASE, CLR, GIMP) — **DONE 2026-03-12** `1a0c5ba`
   - Created tools/export-palette.sh for automated exports
   - Exports to: GIMP palette (.gpl), macOS CLR (.clr.json), CSS custom properties, Tailwind config
