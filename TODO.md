@@ -16,7 +16,11 @@
 
 - [ ] Add CI/CD for automated theme validation on PR
 - [ ] Create theme preview web page (GitHub Pages)
-- [ ] Add color palette export to multiple formats (ASE, CLR, GIMP)
+- [x] Add color palette export to multiple formats (ASE, CLR, GIMP) — **DONE 2026-03-12** `1a0c5ba`
+  - Created tools/export-palette.sh for automated exports
+  - Exports to: GIMP palette (.gpl), macOS CLR (.clr.json), CSS custom properties, Tailwind config
+  - ASE format via JSON (with conversion instructions)
+  - Usage: ./tools/export-palette.sh [ase|gimp|clr|css|tailwind|all]
 - [x] Investigate https://github.com/catppuccin/catppuccin for porting patterns — **DONE 2026-03-12**
   - Documented in `docs/CATPPUCCIN_PATTERNS.md`
   - Key learnings: 26 semantic colors, multi-flavor strategy, style guide patterns

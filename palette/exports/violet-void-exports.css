@@ -1,0 +1,35 @@
+/* Violet Void Theme - Color Palette Exports */
+/* Generated: 2026-03-12T09:25:38+01:00 */
+
+:root {
+  /* Backgrounds */
+  --vv-backgrounds-bg: #050505;
+  --vv-backgrounds-bg-dark: #0e0e0e;
+  --vv-backgrounds-bg-highlight: #191919;
+  --vv-backgrounds-bg-selection: #0f0f0f;
+  --vv-backgrounds-black: #181818;
+
+  /* Foregrounds */
+  --vv-foregrounds-fg: #f0f0f5;
+  --vv-foregrounds-fg-dark: #303030;
+  --vv-foregrounds-fg-muted: #414141;
+  --vv-foregrounds-fg-comment: #4c4c4c;
+  --vv-foregrounds-white: #e7e7e7;
+
+  /* Accents */
+  --vv-accents-red: #ff1a67;
+  --vv-accents-red-bright: #ff004b;
+  --vv-accents-green: #42ff97;
+  --vv-accents-green-bright: #42ffad;
+  --vv-accents-blue: #29adff;
+  --vv-accents-blue-bright: #c7b8ff;
+  --vv-accents-cyan: #00a8a4;
+  --vv-accents-cyan-bright: #00fff9;
+  --vv-accents-magenta: #fd007f;
+  --vv-accents-magenta-bright: #fd0098;
+  --vv-accents-purple: #7c60d1;
+  --vv-accents-purple-bright: #fd7cff;
+  --vv-accents-orange: #ff7c7e;
+  --vv-accents-yellow: #ffd93d;
+
+}

@@ -1,0 +1,34 @@
+GIMP Palette
+Name: Violet Void
+Description: Violet Void Theme - A dark purple-tinted color system for unified desktop aesthetics
+Columns: 4
+
+# Backgrounds
+5 5 5    bg
+14 14 14    bgDark
+25 25 25    bgHighlight
+15 15 15    bgSelection
+24 24 24    black
+
+# Foregrounds
+240 240 245    fg
+48 48 48    fgDark
+65 65 65    fgMuted
+76 76 76    fgComment
+231 231 231    white
+
+# Accents
+255 26 103    red
+255 0 75    redBright
+66 255 151    green
+66 255 173    greenBright
+41 173 255    blue
+199 184 255    blueBright
+0 168 164    cyan
+0 255 249    cyanBright
+253 0 127    magenta
+253 0 152    magentaBright
+124 96 209    purple
+253 124 255    purpleBright
+255 124 126    orange
+255 217 61    yellow
