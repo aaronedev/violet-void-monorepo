@@ -159,6 +159,23 @@ console.log(colors.accents.purple); // #7c60d1
 | `tools/lint-all.sh` | Lint all themes |
 | `tools/check-contrast.sh` | WCAG contrast validation for accessibility |
 
+## 📊 Theme Comparisons
+
+Wondering how Violet Void compares to other popular themes? Check out our [Theme Comparison Guide](./docs/comparisons/README.md) for:
+
+- Side-by-side color comparisons with Catppuccin, Nord, and Dracula
+- Visual characteristics and best use cases
+- Migration guides for switching from other themes
+
+**Quick Comparison:**
+
+| Theme | Background | Primary Accent | Style |
+|-------|------------|----------------|-------|
+| **Violet Void** | Near-black (#050505) | Purple (#7c60d1) | High-contrast, minimal |
+| Catppuccin Mocha | Dark (#1e1e2e) | Mauve (#cba6f7) | Warm pastel |
+| Nord | Blue-gray (#2e3440) | Frost (#88c0d0) | Cool professional |
+| Dracula | Purple-dark (#282a36) | Purple (#bd93f9) | Vibrant bold |
+
 ## 🎯 Philosophy
 
 Violet Void is built on these principles:
