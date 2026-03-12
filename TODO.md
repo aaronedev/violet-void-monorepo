@@ -5,7 +5,7 @@
 - [ ] Create unified color token system (style-dictionary or similar)
 - [x] Add color accessibility checker script (WCAG contrast validation) - a93cbbf
 - [ ] Automate theme screenshot generation for README
-- [x] Add theme comparison/preview images for README — **DONE 2026-03-12** `875568d`
+- [x] Add theme comparison/preview images for README — **DONE 2026-03-12** `63ec827`
   - Created docs/comparisons/README.md with detailed theme comparisons
   - Compares Violet Void with Catppuccin, Nord, and Dracula
   - Includes color mapping tables for migration
