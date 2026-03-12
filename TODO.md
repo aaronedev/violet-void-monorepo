@@ -14,13 +14,13 @@
 
 ## Medium Priority
 
-- [ ] Add color name lookup tool for semantic naming — **NEW 2026-03-12 from scout**
-  - Tool: `color-name` (npm) or similar for getting human-readable color names
-  - Useful for generating semantic color names from hex values
-  - Could automate creation of descriptive color aliases
-  - Link: https://github.com/colorjs/color-name
-  - Alternative: CSS color name databases for offline lookup
-  - Helps with accessibility documentation and color palette documentation
+- [x] Add color name lookup tool for semantic naming — **DONE 2026-03-12** `0f93b36`
+  - Created tools/color-name-lookup.sh for offline color name lookup
+  - Maps hex colors to CSS named colors and Violet Void palette names
+  - Calculates color distance to find closest match
+  - Provides brightness, saturation, and color family analysis
+  - Usage: ./tools/color-name-lookup.sh '#7c60d1' or --palette
+  - Useful for documentation and semantic naming of colors
 - [ ] Add `colorable` for batch color contrast testing — **NEW 2026-03-12 from scout**
   - npm package: `colorable` - Color combination contrast tester
   - Tests all color combinations in palette against WCAG standards
