@@ -30,12 +30,15 @@
   - Provides brightness, saturation, and color family analysis
   - Usage: ./tools/color-name-lookup.sh '#7c60d1' or --palette
   - Useful for documentation and semantic naming of colors
-- [ ] Add `colorable` for batch color contrast testing — **NEW 2026-03-12 from scout**
+- [x] Add `colorable` for batch color contrast testing — **DONE 2026-03-12** `0a0f70c`
   - npm package: `colorable` - Color combination contrast tester
   - Tests all color combinations in palette against WCAG standards
   - Generates accessibility reports with pass/fail for AA/AAA levels
   - Complements existing pastel integration for contrast checking
-  - Usage: `colorable '{"color1": "#hex", "color2": "#hex"}'` returns contrast ratios
+  - Created tools/colorable-test.sh for automated testing
+  - Test sample combinations, text/background combos, or all combinations
+  - Usage: ./tools/colorable-test.sh --sample | --text | --all
+  - Install helper: ./tools/colorable-test.sh --install
   - Could integrate with CI/CD for automated accessibility validation
   - Link: https://github.com/jxnblk/colorable
   - Useful for: ensuring text/background combinations are accessible
