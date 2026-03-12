@@ -157,6 +157,7 @@ console.log(colors.accents.purple); // #7c60d1
 | `tools/update-submodules.sh` | Pull latest changes for all submodules |
 | `tools/build-all.sh` | Build all themes that require compilation |
 | `tools/lint-all.sh` | Lint all themes |
+| `tools/check-contrast.sh` | WCAG contrast validation for accessibility |
 
 ## 🎯 Philosophy
 

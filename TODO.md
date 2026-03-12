@@ -3,7 +3,7 @@
 ## High Priority
 
 - [ ] Create unified color token system (style-dictionary or similar)
-- [ ] Add color accessibility checker script (WCAG contrast validation)
+- [x] Add color accessibility checker script (WCAG contrast validation)
 - [ ] Automate theme screenshot generation for README
 
 ## Medium Priority
