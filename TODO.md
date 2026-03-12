@@ -126,6 +126,11 @@
   - Could be used to create seasonal/variant palettes from wallpapers
   - Alternative to manual palette curation for new color variants
 
+- [ ] Investigate `colorjs.io` for OKLCH/OKLAB color space support — **NEW 2026-03-12 from scout**
+  - Modern color library for OKLCH, OKLAB, and other modern color spaces
+  - Better for perceptually uniform color interpolation than HSL/RGB
+  - Use case: Upgrade the tint-shade-generator for more natural color gradients
+
 ## Low Priority
 
 - [x] Add theme migration guide for users switching from other themes — **DONE 2026-03-12** `pre-existing`
