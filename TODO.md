@@ -14,6 +14,14 @@
 
 ## Medium Priority
 
+- [ ] Add `palette-analyzer` for comprehensive palette analysis — **NEW 2026-03-12**
+  - Analyze color harmony (complementary, analogous, triadic, etc.)
+  - Calculate color temperature (warm/cool balance)
+  - Detect saturation and brightness distribution
+  - Generate palette statistics and visualizations
+  - Compare palette characteristics with popular themes
+  - Useful for documentation and palette refinement decisions
+  - Could use: pastel, colorthief, or custom algorithms
 - [x] Add `tint-shade-generator` for automated palette extensions — **DONE 2026-03-12** `1cf7e77`
   - Generate tints (lighter) and shades (darker) of base palette colors
   - Create extended palette with 10 variations per base color (50, 100, ..., 900)
@@ -48,7 +56,14 @@
   - Export themes to various formats
   - Could help with finding inspiration for Violet Void variants
   - Useful for research when creating new theme ports
-- [ ] Add CI/CD for automated theme validation on PR
+- [x] Add CI/CD for automated theme validation on PR — **DONE 2026-03-12** `a6019b0`
+  - Created .github/workflows/theme-validation.yml
+  - Validates palette JSON structure and required fields
+  - Checks WCAG contrast ratios using pastel
+  - Validates CSS/Stylus/JSON theme files
+  - Checks submodule sync status
+  - Generates validation report artifact
+  - Triggers on push/PR to main/master affecting palette or themes
 - [ ] Create theme preview web page (GitHub Pages)
 - [ ] Investigate `themer` for multi-app theme generation — **NEW 2026-03-12**
   - Link: https://github.com/mjswensen/themer
@@ -104,7 +119,7 @@
   - Created PR template with checklist for theme ports
   - Updated CONTRIBUTING.md with detailed contribution guidelines
   - Includes color mapping reference and testing requirements
-- [x] Add changelog generation automation — **DONE 2026-03-12** `COMMIT_PLACEHOLDER`
+- [x] Add changelog generation automation — **DONE 2026-03-12** `a6019b0`
   - Created tools/generate-changelog.sh for automated changelog generation
   - Parses conventional commits and categorizes by type
   - Outputs to CHANGELOG.md in Keep a Changelog format

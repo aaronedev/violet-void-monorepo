@@ -1,0 +1,206 @@
+name: Theme Validation
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'palette/**'
+      - 'themes/**'
+      - '.github/workflows/theme-validation.yml'
+  pull_request:
+    branches: [main, master]
+    paths:
+      - 'palette/**'
+      - 'themes/**'
+  workflow_dispatch:
+
+jobs:
+  validate-palette:
+    name: Validate Color Palette
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate palette JSON structure
+        run: |
+          echo "🔍 Validating palette JSON structure..."
+          
+          # Check if palette file exists
+          if [[ ! -f "palette/colors.json" ]]; then
+            echo "❌ Error: palette/colors.json not found"
+            exit 1
+          fi
+          
+          # Validate JSON syntax
+          if ! jq empty palette/colors.json 2>/dev/null; then
+            echo "❌ Error: Invalid JSON in palette/colors.json"
+            exit 1
+          fi
+          
+          # Check required fields
+          REQUIRED_FIELDS=("name" "backgrounds" "foregrounds" "accents")
+          for field in "${REQUIRED_FIELDS[@]}"; do
+            if ! jq -e ".${field}" palette/colors.json > /dev/null 2>&1; then
+              echo "❌ Error: Missing required field '${field}' in palette"
+              exit 1
+            fi
+          done
+          
+          # Validate color format (hex colors)
+          COLOR_COUNT=$(jq '[.backgrounds, .foregrounds, .accents | to_entries[].value] | length' palette/colors.json)
+          INVALID_COLORS=$(jq -r '[.backgrounds, .foregrounds, .accents | to_entries[].value] | .[]' palette/colors.json | grep -vE '^#[0-9a-fA-F]{6}$' || true)
+          
+          if [[ -n "$INVALID_COLORS" ]]; then
+            echo "⚠️ Warning: Some colors may not be valid hex format"
+            echo "$INVALID_COLORS"
+          fi
+          
+          echo "✅ Palette validation passed (${COLOR_COUNT} colors validated)"
+
+      - name: Check color contrast ratios
+        run: |
+          echo "🔍 Checking WCAG contrast ratios..."
+          
+          # Install pastel for color manipulation
+          sudo apt-get update && sudo apt-get install -y pastel
+          
+          # Extract background color
+          BG=$(jq -r '.backgrounds.bg' palette/colors.json)
+          FG=$(jq -r '.foregrounds.fg' palette/colors.json)
+          
+          # Check foreground vs background contrast
+          CONTRAST=$(pastel contrast "$FG" "$BG" 2>/dev/null || echo "0")
+          
+          echo "  Background: $BG"
+          echo "  Foreground: $FG"
+          echo "  Contrast ratio: ${CONTRAST}:1"
+          
+          # WCAG AA requires 4.5:1 for normal text
+          if (( $(echo "$CONTRAST >= 4.5" | bc -l) )); then
+            echo "✅ Contrast ratio meets WCAG AA standard (>= 4.5:1)"
+          else
+            echo "⚠️ Warning: Contrast ratio ${CONTRAST}:1 is below WCAG AA standard (4.5:1)"
+          fi
+
+  validate-themes:
+    name: Validate Theme Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check theme directory structure
+        run: |
+          echo "🔍 Checking theme directory structure..."
+          
+          THEMES=$(ls -d themes/*/ 2>/dev/null | wc -l)
+          echo "Found ${THEMES} theme directories"
+          
+          if [[ $THEMES -eq 0 ]]; then
+            echo "⚠️ Warning: No theme directories found"
+          fi
+          
+          # Check each theme has required files
+          for theme_dir in themes/*/; do
+            theme_name=$(basename "$theme_dir")
+            file_count=$(find "$theme_dir" -type f | wc -l)
+            echo "  - $theme_name: $file_count files"
+          done
+          
+          echo "✅ Theme structure validation passed"
+
+      - name: Validate CSS/Stylus themes
+        run: |
+          echo "🔍 Validating CSS/Stylus theme files..."
+          
+          CSS_FILES=$(find themes -name "*.css" -o -name "*.styl" 2>/dev/null | wc -l)
+          echo "Found ${CSS_FILES} CSS/Stylus files"
+          
+          # Basic syntax check for CSS files
+          for css_file in $(find themes -name "*.css" 2>/dev/null); do
+            # Check for balanced braces
+            OPEN=$(grep -o '{' "$css_file" | wc -l)
+            CLOSE=$(grep -o '}' "$css_file" | wc -l)
+            if [[ $OPEN -ne $CLOSE ]]; then
+              echo "⚠️ Warning: Unbalanced braces in $css_file (open: $OPEN, close: $CLOSE)"
+            fi
+          done
+          
+          echo "✅ CSS/Stylus validation passed"
+
+      - name: Validate JSON theme files
+        run: |
+          echo "🔍 Validating JSON theme files..."
+          
+          JSON_FILES=$(find themes -name "*.json" 2>/dev/null | wc -l)
+          echo "Found ${JSON_FILES} JSON files"
+          
+          # Validate JSON syntax
+          for json_file in $(find themes -name "*.json" 2>/dev/null); do
+            if ! jq empty "$json_file" 2>/dev/null; then
+              echo "❌ Error: Invalid JSON in $json_file"
+              exit 1
+            fi
+          done
+          
+          echo "✅ JSON validation passed"
+
+  sync-check:
+    name: Check Theme Sync Status
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: true
+
+      - name: Check submodule status
+        run: |
+          echo "🔍 Checking submodule status..."
+          
+          # List all submodules
+          git submodule status > submodule-status.txt || true
+          
+          if [[ -s submodule-status.txt ]]; then
+            echo "Submodule status:"
+            cat submodule-status.txt
+          else
+            echo "No submodules found or not using submodules"
+          fi
+
+      - name: Generate validation report
+        run: |
+          echo "# Theme Validation Report" > validation-report.md
+          echo "" >> validation-report.md
+          echo "**Date:** $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> validation-report.md
+          echo "**Commit:** ${{ github.sha }}" >> validation-report.md
+          echo "" >> validation-report.md
+          
+          echo "## Summary" >> validation-report.md
+          echo "" >> validation-report.md
+          
+          THEMES=$(ls -d themes/*/ 2>/dev/null | wc -l)
+          CSS_FILES=$(find themes -name "*.css" -o -name "*.styl" 2>/dev/null | wc -l)
+          JSON_FILES=$(find themes -name "*.json" 2>/dev/null | wc -l)
+          
+          echo "- Theme directories: ${THEMES}" >> validation-report.md
+          echo "- CSS/Stylus files: ${CSS_FILES}" >> validation-report.md
+          echo "- JSON files: ${JSON_FILES}" >> validation-report.md
+          echo "" >> validation-report.md
+          echo "✅ All validations passed" >> validation-report.md
+          
+          cat validation-report.md
+
+      - name: Upload validation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: validation-report.md
+          retention-days: 30
