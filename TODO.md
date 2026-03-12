@@ -21,6 +21,15 @@
   - Link: https://github.com/colorjs/color-name
   - Alternative: CSS color name databases for offline lookup
   - Helps with accessibility documentation and color palette documentation
+- [ ] Add `colorable` for batch color contrast testing — **NEW 2026-03-12 from scout**
+  - npm package: `colorable` - Color combination contrast tester
+  - Tests all color combinations in palette against WCAG standards
+  - Generates accessibility reports with pass/fail for AA/AAA levels
+  - Complements existing pastel integration for contrast checking
+  - Usage: `colorable '{"color1": "#hex", "color2": "#hex"}'` returns contrast ratios
+  - Could integrate with CI/CD for automated accessibility validation
+  - Link: https://github.com/jxnblk/colorable
+  - Useful for: ensuring text/background combinations are accessible
 - [ ] Add CI/CD for automated theme validation on PR
 - [ ] Create theme preview web page (GitHub Pages)
 - [ ] Investigate `themer` for multi-app theme generation — **NEW 2026-03-12**
