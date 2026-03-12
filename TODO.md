@@ -14,6 +14,13 @@
 
 ## Medium Priority
 
+- [ ] Add color name lookup tool for semantic naming — **NEW 2026-03-12 from scout**
+  - Tool: `color-name` (npm) or similar for getting human-readable color names
+  - Useful for generating semantic color names from hex values
+  - Could automate creation of descriptive color aliases
+  - Link: https://github.com/colorjs/color-name
+  - Alternative: CSS color name databases for offline lookup
+  - Helps with accessibility documentation and color palette documentation
 - [ ] Add CI/CD for automated theme validation on PR
 - [ ] Create theme preview web page (GitHub Pages)
 - [ ] Investigate `themer` for multi-app theme generation — **NEW 2026-03-12**
