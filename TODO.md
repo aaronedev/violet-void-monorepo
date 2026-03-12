@@ -34,7 +34,14 @@
   - Key learnings: 26 semantic colors, multi-flavor strategy, style guide patterns
   - Recommendations: semantic color mapping, standardized port structure, automation tools
   - Created actionable roadmap for Violet Void improvements
-- [ ] Investigate https://github.com/nordtheme/nord for theme structure ideas
+- [x] Investigate https://github.com/nordtheme/nord for theme structure ideas — **DONE
+      2026-03-12** `3905b7c`
+  - Documented in `docs/NORD_PATTERNS.md`
+  - Key learnings: 16-color numbered system (nord0-15), 4-palette organization
+    (Polar Night, Snow Storm, Frost, Aurora), dual ambiance design (dark/bright)
+  - Recommendations: numbered system for terminal compatibility, dual-mode
+    documentation, syntax highlighting guide, port organization standards
+  - Created Violet Void ↔ Nord color mapping for cross-theme compatibility
 - [ ] Investigate tinted-theming (formerly base16) ecosystem for template-based theme generation
   - Link: https://github.com/tinted-theming/home
   - Template-based approach: define colors once, generate themes for 200+ apps
