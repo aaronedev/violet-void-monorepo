@@ -5,6 +5,12 @@
 - [ ] Create unified color token system (style-dictionary or similar)
 - [x] Add color accessibility checker script (WCAG contrast validation) - a93cbbf
 - [ ] Automate theme screenshot generation for README
+- [ ] Add theme comparison/preview images for README — **NEW 2026-03-12**
+  - Create side-by-side comparisons with popular themes (catppuccin, nord, dracula)
+  - Automated screenshot generation with different terminal setups
+  - Visual diff showing color relationships
+  - Helps users make informed decisions about theme adoption
+  - Consider using puppeteer/playwright for automated screenshots
 
 ## Medium Priority
 
