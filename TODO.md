@@ -14,7 +14,7 @@
 
 ## Medium Priority
 
-- [x] Add `tint-shade-generator` for automated palette extensions — **DONE 2026-03-12** `COMMIT_PLACEHOLDER`
+- [x] Add `tint-shade-generator` for automated palette extensions — **DONE 2026-03-12** `1cf7e77`
   - Generate tints (lighter) and shades (darker) of base palette colors
   - Create extended palette with 10 variations per base color (50, 100, ..., 900)
   - Useful for: UI elements that need subtle variations (hover states, borders, backgrounds)
