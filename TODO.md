@@ -2,7 +2,7 @@
 
 ## High Priority
 
-- [x] Create unified color token system (style-dictionary) — **DONE 2026-03-12** `STYLE_DICTIONARY_COMMIT`
+- [x] Create unified color token system (style-dictionary) — **DONE 2026-03-12** `b1e1cca`
   - Created Style Dictionary configuration for unified color tokens
   - Token structure: backgrounds, foregrounds, accents (base/bright variants)
   - Output formats: CSS, SCSS, JSON, JavaScript ES6 modules
