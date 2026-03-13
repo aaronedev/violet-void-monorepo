@@ -22,6 +22,10 @@
 
 ## Medium Priority
 
+- [ ] Investigate `rose-pine` patterns for semantic naming and design system — **NEW 2026-03-12 from violet-void scout**
+  - Document key learnings from Rosé Pine's semantic role-based naming (base, surface, overlay, muted, subtle, text, love, gold, rose, pine, foam, iris)
+  - Analyze their variant generation approach (main, moon, dawn)
+  - Create actionable roadmap for adopting similar semantic roles in Violet Void
 - [ ] Add color blindness simulation for accessibility testing — **NEW 2026-03-12 from scout**
   - Simulate how Violet Void palette appears to users with color vision deficiencies
   - Test for: protanopia (red-blind), deuteranopia (green-blind), tritanopia (blue-blind)
@@ -32,6 +36,16 @@
   - Complements existing WCAG contrast testing
   - Could integrate with CI/CD for automated accessibility checks
   - Useful for: theme accessibility validation and documentation
+- [ ] Investigate `culori` for advanced color manipulation — **NEW 2026-03-14 from scout**
+  - Comprehensive color library for JavaScript with 50+ color spaces
+  - Supports: RGB, HSL, HSV, Lab, LCH, OKLab, OKLCH, and many more
+  - Better color interpolation than manual calculations
+  - Could upgrade tint-shade-generator for perceptually uniform gradients
+  - Use case: Create perceptually uniform color scales and harmonies
+  - Link: https://culorijs.org/
+  - GitHub: https://github.com/Evercoder/culori
+  - Alternative to manual HSL/RGB calculations in tools
+  - Useful for: advanced palette generation and color transformations
 - [ ] Add `palette-analyzer` for comprehensive palette analysis — **NEW 2026-03-12**
   - Analyze color harmony (complementary, analogous, triadic, etc.)
   - Calculate color temperature (warm/cool balance)
