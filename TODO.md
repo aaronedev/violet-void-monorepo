@@ -198,6 +198,18 @@
   - GitHub: https://github.com/radix-ui/colors
   - Key learnings: semantic naming (1-12 scale), alpha variants, automatic dark mode
 
+- [ ] Investigate `chroma-js` for advanced color manipulation — **NEW 2026-03-14 from violet-void scout**
+  - Powerful JavaScript library for color conversions and manipulations
+  - Features: color mixing, blending, interpolation, contrast calculation
+  - Supports: RGB, HSL, HSV, Lab, LCH, OKLab, OKLCH, and more
+  - Built-in color scales: sequential, diverging, categorical
+  - Use case: Upgrade palette analysis tools with professional-grade color operations
+  - Could replace manual calculations in tint-shade-generator for better accuracy
+  - Better perceptual interpolation than HSL-based approaches
+  - Link: https://gka.github.io/chroma.js/
+  - npm: chroma-js
+  - Alternative to culori with simpler API for common operations
+
 ## Low Priority
 
 - [x] Add theme migration guide for users switching from other themes — **DONE 2026-03-12** `pre-existing`
