@@ -45,7 +45,7 @@
   - Complements existing WCAG contrast testing
   - Could integrate with CI/CD for automated accessibility checks
   - Useful for: theme accessibility validation and documentation
-- [ ] Investigate `culori` for advanced color manipulation — **NEW 2026-03-14 from scout**
+- [x] Investigate `culori` for advanced color manipulation — **DONE 2026-03-14** `bc2be04`
   - Comprehensive color library for JavaScript with 50+ color spaces
   - Supports: RGB, HSL, HSV, Lab, LCH, OKLab, OKLCH, and many more
   - Better color interpolation than manual calculations
@@ -55,6 +55,9 @@
   - GitHub: https://github.com/Evercoder/culori
   - Alternative to manual HSL/RGB calculations in tools
   - Useful for: advanced palette generation and color transformations
+  - **Investigation documented in docs/CULORI_PATTERNS.md**
+  - Key findings: OKLCH/OKLab for perceptually uniform interpolation, small footprint (~8KB), zero deps
+  - Recommendations: Upgrade tint-shade-generator, add harmony generator, create gradient preview tool
 - [x] Add `palette-analyzer` for comprehensive palette analysis — **DONE 2026-03-14 `53e39d7`**
   - Analyze color harmony (complementary, analogous, triadic, etc.)
   - Calculate color temperature (warm/cool balance)
@@ -174,6 +177,15 @@
   - npm: huetiful-js
   - Use case: Create perceptually uniform gradients and color harmonies
   - Alternative to culori with more focused API for theme development
+
+- [ ] Investigate `color.io` for browser-based palette visualization — **NEW 2026-03-14 from scout**
+  - Web-based color space visualization and palette analysis tool
+  - Real-time OKLCH/LCH color picker with gamut mapping
+  - Visualize color relationships and harmonies interactively
+  - Useful for: palette refinement, color education, documentation visuals
+  - Could inform better color selection for future Violet Void variants
+  - Link: https://color.io/
+  - Use case: Visual validation of palette color relationships
 
 ## Low Priority
 
