@@ -187,6 +187,17 @@
   - Link: https://color.io/
   - Use case: Visual validation of palette color relationships
 
+- [ ] Investigate `Radix Colors` for accessibility-first color system patterns — **NEW 2026-03-14 from scout**
+  - Systematic color scales designed for accessible UI development
+  - 12-step lightness scales for each hue with semantic naming
+  - Built-in WCAG compliance: each step tested against white/black
+  - Dark mode variants with proper contrast ratios
+  - Use case: Learn patterns for creating perceptually uniform color scales
+  - Could inform better accent color variations for Violet Void
+  - Link: https://www.radix-ui.com/colors
+  - GitHub: https://github.com/radix-ui/colors
+  - Key learnings: semantic naming (1-12 scale), alpha variants, automatic dark mode
+
 ## Low Priority
 
 - [x] Add theme migration guide for users switching from other themes — **DONE 2026-03-12** `pre-existing`
