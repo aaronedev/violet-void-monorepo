@@ -55,7 +55,7 @@
   - GitHub: https://github.com/Evercoder/culori
   - Alternative to manual HSL/RGB calculations in tools
   - Useful for: advanced palette generation and color transformations
-- [ ] Add `palette-analyzer` for comprehensive palette analysis — **NEW 2026-03-12**
+- [x] Add `palette-analyzer` for comprehensive palette analysis — **DONE 2026-03-14 `53e39d7`**
   - Analyze color harmony (complementary, analogous, triadic, etc.)
   - Calculate color temperature (warm/cool balance)
   - Detect saturation and brightness distribution
@@ -63,6 +63,16 @@
   - Compare palette characteristics with popular themes
   - Useful for documentation and palette refinement decisions
   - Could use: pastel, colorthief, or custom algorithms
+  - Enhanced tools/palette-analyzer.sh with comprehensive analysis:
+    - Basic statistics (color counts by type)
+    - Temperature analysis (warm/cool balance)
+    - Saturation distribution (low/medium/high)
+    - Brightness distribution (dark/medium/light)
+    - Color family distribution
+    - Color harmony detection
+    - Detailed accent breakdown with HSL values
+    - WCAG contrast summary
+    - Theme characteristic comparison
 - [x] Add `tint-shade-generator` for automated palette extensions — **DONE 2026-03-12** `1cf7e77`
   - Generate tints (lighter) and shades (darker) of base palette colors
   - Create extended palette with 10 variations per base color (50, 100, ..., 900)
@@ -153,6 +163,17 @@
   - Modern color library for OKLCH, OKLAB, and other modern color spaces
   - Better for perceptually uniform color interpolation than HSL/RGB
   - Use case: Upgrade the tint-shade-generator for more natural color gradients
+
+- [ ] Add `huetiful-js` for advanced color manipulations — **NEW 2026-03-14 from scout**
+  - Comprehensive color library with 50+ color manipulation functions
+  - Supports OKLCH, OKLAB, and other modern color spaces
+  - Features: color sorting, filtering, interpolation, harmonies
+  - Better perceptual uniformity than HSL-based calculations
+  - Could upgrade palette analysis and color transformation tools
+  - Link: https://github.com/prjctimg/huetiful
+  - npm: huetiful-js
+  - Use case: Create perceptually uniform gradients and color harmonies
+  - Alternative to culori with more focused API for theme development
 
 ## Low Priority
 
