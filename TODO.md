@@ -26,7 +26,16 @@
   - Document key learnings from Rosé Pine's semantic role-based naming (base, surface, overlay, muted, subtle, text, love, gold, rose, pine, foam, iris)
   - Analyze their variant generation approach (main, moon, dawn)
   - Create actionable roadmap for adopting similar semantic roles in Violet Void
-- [ ] Add color blindness simulation for accessibility testing — **NEW 2026-03-12 from scout**
+- [x] Add color blindness simulation for accessibility testing — **DONE 2026-03-14** `83ab763`
+  - Created tools/colorblind-simulation.py for simulating color vision deficiencies
+  - Simulates: protanopia (red-blind), deuteranopia (green-blind), tritanopia (blue-blind)
+  - Uses Brettel, Viénot, Mollon simulation matrices for accurate results
+  - Generates Markdown and JSON reports with original vs simulated colors
+  - No external dependencies (pure Python 3.6+)
+  - Usage: python3 tools/colorblind-simulation.py [test|protanopia|deuteranopia|tritanopia|generate|all]
+  - Output: docs/accessibility/ directory with simulation reports
+  - Ensures Violet Void palette is distinguishable for users with color vision deficiencies
+  - Complements existing WCAG contrast testing
   - Simulate how Violet Void palette appears to users with color vision deficiencies
   - Test for: protanopia (red-blind), deuteranopia (green-blind), tritanopia (blue-blind)
   - Also test: protanomaly, deuteranomaly, tritanomaly (reduced sensitivity)
