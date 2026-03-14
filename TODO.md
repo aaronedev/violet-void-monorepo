@@ -216,6 +216,19 @@
   - Key findings: OKLCH/Lab interpolation, built-in contrast calculation, color harmonies
   - Recommendations: Upgrade tint-shade-generator, add harmony generator, create contrast validator
 
+- [ ] Investigate `polished` for JavaScript style utility functions — **NEW 2026-03-14 from violet-void scout**
+  - Lightweight toolset for writing styles in JavaScript (2KB gzipped)
+  - Color functions: lighten, darken, saturate, desaturate, mix, complement, etc.
+  - Shorthand property helpers: margin, padding, border, etc.
+  - State helpers: hover, active, focus, etc.
+  - Could create a Violet Void theme generator using polished utilities
+  - Better than writing manual CSS color manipulation functions
+  - Complements existing chroma-js/culori for runtime color operations
+  - Useful for: web-based theme preview, dynamic theme variations
+  - Link: https://polished.js.org/
+  - GitHub: https://github.com/styled-components/polished
+  - npm: polished
+
 ## Low Priority
 
 - [x] Add theme migration guide for users switching from other themes — **DONE 2026-03-12** `pre-existing`
