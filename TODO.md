@@ -228,6 +228,20 @@
   - Key findings: OKLCH/Lab interpolation, built-in contrast calculation, color harmonies
   - Recommendations: Upgrade tint-shade-generator, add harmony generator, create contrast validator
 
+- [ ] Investigate `tinte` for agent-native design system infrastructure — **NEW 2026-03-14 from scout**
+  - Agent-native design system infrastructure with single source of truth
+  - 13 semantic OKLCH color tokens that compile to 19+ formats (shadcn, VS Code, terminals, design tools)
+  - **Ray API (ray.tinte.dev)** for automated code screenshots with themes:
+    - POST ray.tinte.dev/api/v1/screenshot - generate themed code screenshots
+    - POST ray.tinte.dev/api/v1/extract-theme - extract colors from images
+    - 500+ syntax themes, 16 languages, PNG/SVG export
+    - Free REST API (60 req/min, no auth)
+  - Could automate theme screenshot generation for README
+  - Theme extraction from images could help with palette research
+  - Link: https://tinte.dev
+  - GitHub: https://github.com/Railly/tinte
+  - Use case: Automate README screenshots, theme preview generation, palette extraction
+
 - [ ] Investigate `colord` for high-performance color manipulation — **NEW 2026-03-14 from scout**
   - Tiny yet powerful color manipulation library (1.5KB gzipped)
   - Faster than chroma-js and culori for common operations
