@@ -12,7 +12,13 @@
   - Documentation: tokens/README.md
   - Future: Add typography, spacing, semantic tokens
 - [x] Add color accessibility checker script (WCAG contrast validation) - a93cbbf
-- [ ] Automate theme screenshot generation for README
+- [x] Automate theme screenshot generation for README — **DONE 2026-03-14** `pending`
+  - Created tools/generate-screenshots.sh using Ray API (ray.tinte.dev)
+  - Supports 10 languages: JS, TS, Python, Rust, Go, Bash, CSS, HTML, JSON, Markdown
+  - Commands: all, hero, extract, single, list
+  - Rate limit aware (60 req/min, 1s delay between requests)
+  - Output: assets/screenshots/ directory
+  - Uses "one-hunter" theme (closest to Violet Void from 500+ Ray themes)
 - [x] Add theme comparison/preview images for README — **DONE 2026-03-12** `63ec827`
   - Created docs/comparisons/README.md with detailed theme comparisons
   - Compares Violet Void with Catppuccin, Nord, and Dracula
