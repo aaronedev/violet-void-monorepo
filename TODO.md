@@ -301,6 +301,18 @@
   - GitHub: https://github.com/styled-components/polished
   - npm: polished
 
+- [ ] Add `wcag-contrast-matrix` for comprehensive contrast visualization — **NEW 2026-03-14 from scout**
+  - Generate visual matrix/grid of all contrast ratios between palette colors
+  - Helps identify which color combinations are accessible for text/background pairs
+  - Visual output: color-coded grid (green=pass, red=fail) for AA/AAA levels
+  - Text output: Markdown table with contrast ratios
+  - Use case: Quick reference for accessible color combinations in Violet Void palette
+  - Could complement existing colorable testing with visual overview
+  - Implementation: Use chroma-js or colorable for contrast calculation, generate grid visualization
+  - Output formats: SVG grid, HTML table, Markdown table, terminal grid
+  - Useful for: documentation, accessibility validation, design system reference
+  - Example tools: color-contrast-matrix (npm), contrast-grid (web tool)
+
 ## Low Priority
 
 - [x] Add theme migration guide for users switching from other themes — **DONE 2026-03-12** `pre-existing`
