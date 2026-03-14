@@ -180,10 +180,13 @@
   - Could be used to create seasonal/variant palettes from wallpapers
   - Alternative to manual palette curation for new color variants
 
-- [ ] Investigate `colorjs.io` for OKLCH/OKLAB color space support — **NEW 2026-03-12 from scout**
+- [x] Investigate `colorjs.io` for OKLCH/OKLAB color space support — **DONE 2026-03-14** `colorjs-patterns`
   - Modern color library for OKLCH, OKLAB, and other modern color spaces
   - Better for perceptually uniform color interpolation than HSL/RGB
   - Use case: Upgrade the tint-shade-generator for more natural color gradients
+  - **Investigation documented in docs/COLORJS_IO_PATTERNS.md**
+  - Key findings: Native OKLCH/OKLAB, CSS Color Level 4 support, WCAG contrast, gamut mapping
+  - Recommendations: Upgrade tint-shade-generator, create harmony generator, add contrast validator
 
 - [x] Add `huetiful-js` for advanced color manipulations — **DONE 2026-03-14** `342639e`
   - Comprehensive color library with 50+ color manipulation functions
