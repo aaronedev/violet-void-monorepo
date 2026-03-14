@@ -329,6 +329,18 @@
   - Link: https://github.com/overlookmotel/svgson (SVG parsing)
   - Alternative: D3.js for more complex visualizations
 
+- [ ] Add `theme-exporter` for multi-format theme exports — **NEW 2026-03-14 from scout**
+  - CLI tool to export color themes to multiple application formats
+  - Generate themes for: VS Code, JetBrains, Sublime Text, Alacritty, Kitty, iTerm2, etc.
+  - Single source of truth: palette.json → 50+ application formats
+  - Template-based approach similar to tinted-theming but focused on modern tools
+  - Could use Mustache or Handlebars templates for format generation
+  - Implementation: Node.js CLI using existing palette tools
+  - Complements Style Dictionary for broader ecosystem coverage
+  - Useful for: expanding Violet Void port coverage without manual duplication
+  - Link: https://github.com/tinted-theming/home (template inspiration)
+  - Example: palette.json → vscode-theme.json, alacritty.yml, kitty.conf
+
 ## Low Priority
 
 - [x] Add theme migration guide for users switching from other themes — **DONE 2026-03-12** `pre-existing`
