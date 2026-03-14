@@ -250,14 +250,19 @@
   - GitHub: https://github.com/Railly/tinte
   - Use case: Automate README screenshots, theme preview generation, palette extraction
 
-- [ ] Add `color-sorter` for palette color organization — **NEW 2026-03-14 from scout**
-  - Sort colors by hue, luminosity, or chroma for better palette organization
+- [x] Add `color-sorter` for palette color organization — **DONE 2026-03-14 `color-sorter`**
+  - Sort colors by hue, luminosity, saturation, or chroma for better palette organization
   - Helps identify color gaps and redundancies in palette
   - Could improve palette documentation with sorted color swatches
   - npm: color-sorter (simple CLI tool)
   - Alternative: custom script using chroma-js or culori
   - Use case: Generate sorted palette views for documentation and analysis
   - Useful for: palette refinement, documentation, color harmony analysis
+  - Created tools/color-sorter.sh with:
+    - Sort by hue, sat, lum, or chroma
+    - Output formats: JSON, CSS, Markdown
+    - Uses pastel for accurate HSL conversion (with awk fallback)
+    - Usage: ./tools/color-sorter.sh [hue|sat|lum|chroma] [json|css|md]
 
 - [ ] Investigate `colord` for high-performance color manipulation — **NEW 2026-03-14 from scout**
   - Tiny yet powerful color manipulation library (1.5KB gzipped)
