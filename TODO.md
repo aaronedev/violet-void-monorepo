@@ -294,3 +294,12 @@
 ## Completed
 
 (none yet)
+
+- [ ] Add `chromatic-adaptive-theme` library - Generate theme variants from base colors
+  - Library that takes a color palette and generates theme variants for different platforms
+  - Allows users to adapt Violet Void to their preferred environment
+  - Install: npm install chromatic-adaptive-theme
+  - Link: https://github.com/example/chromatic-adaptive-theme
+  - Add to package.json dependencies
+  - Create initial theme generator script
+  - Useful for: creating theme variants for different platforms and environments
