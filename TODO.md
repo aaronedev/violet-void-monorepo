@@ -106,7 +106,7 @@
   - Could integrate with CI/CD for automated accessibility validation
   - Link: https://github.com/jxnblk/colorable
   - Useful for: ensuring text/background combinations are accessible
-- [x] Add `theme-finder` for theme discovery and comparison — **DONE 2026-03-14** `COMMIT_PLACEHOLDER`
+- [x] Add `theme-finder` for theme discovery and comparison — **DONE 2026-03-14** `18a7ba3`
   - Created tools/theme-finder.sh for searching and comparing themes
   - Searches GitHub for popular theme repositories
   - Compares color palettes side-by-side
