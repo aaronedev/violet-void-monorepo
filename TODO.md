@@ -316,6 +316,20 @@
   - Useful for: documentation, accessibility validation, design system reference
   - Example tools: color-contrast-matrix (npm), contrast-grid (web tool)
 
+- [ ] Add `svg-palette-visualizer` for visual documentation generation — **NEW 2026-03-14 from scout**
+  - Generate SVG visualizations of the color palette for README and documentation
+  - Output types: color swatches, gradient strips, harmony diagrams, contrast grids
+  - Customizable layouts: grid, row, circle, gradient flow
+  - Auto-generate from palette JSON with template system
+  - Use case: Create consistent visual assets for documentation without manual design work
+  - Implementation: Node.js script using chroma-js for color manipulation, SVG templates
+  - Output formats: SVG (primary), PNG export via sharp or resvg-js
+  - Could integrate with CI/CD for automatic regeneration on palette changes
+  - Useful for: README badges, documentation headers, theme preview cards
+  - Example outputs: palette-swatch.svg, palette-gradients.svg, palette-harmony.svg
+  - Link: https://github.com/overlookmotel/svgson (SVG parsing)
+  - Alternative: D3.js for more complex visualizations
+
 ## Low Priority
 
 - [x] Add theme migration guide for users switching from other themes — **DONE 2026-03-12** `pre-existing`
