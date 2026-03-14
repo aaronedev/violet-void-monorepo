@@ -106,6 +106,15 @@
   - Could integrate with CI/CD for automated accessibility validation
   - Link: https://github.com/jxnblk/colorable
   - Useful for: ensuring text/background combinations are accessible
+- [x] Add `theme-finder` for theme discovery and comparison — **DONE 2026-03-14** `COMMIT_PLACEHOLDER`
+  - Created tools/theme-finder.sh for searching and comparing themes
+  - Searches GitHub for popular theme repositories
+  - Compares color palettes side-by-side
+  - Generates comparison reports with color mappings
+  - Usage: ./tools/theme-finder.sh search <query> | compare <theme> | popular
+  - Install: npm install -g theme-finder (optional, fallback to native implementation)
+  - Useful for finding inspiration for Violet Void variants
+  - Helps with research when creating new theme ports
 - [ ] Add `theme-finder` for theme discovery and comparison — **NEW 2026-03-12**
   - Link: https://github.com/mvllow/theme-finder
   - Search and discover themes from various sources (GitHub, Reddit, etc.)
@@ -218,6 +227,19 @@
   - **Investigation documented in docs/CHROMA_JS_PATTERNS.md**
   - Key findings: OKLCH/Lab interpolation, built-in contrast calculation, color harmonies
   - Recommendations: Upgrade tint-shade-generator, add harmony generator, create contrast validator
+
+- [ ] Investigate `colord` for high-performance color manipulation — **NEW 2026-03-14 from scout**
+  - Tiny yet powerful color manipulation library (1.5KB gzipped)
+  - Faster than chroma-js and culori for common operations
+  - Plugin architecture: harmonies, mix, contrast, a11y, minify
+  - Supports: RGB, HSL, HSV, OKLab, OKLCH, and more
+  - Zero dependencies, tree-shakeable
+  - Could replace multiple color libraries with single unified solution
+  - Useful for: palette transformations, accessibility checks, theme generation
+  - Link: https://github.com/omgovich/colord
+  - npm: colord
+  - Use case: Lightweight color operations in palette tools and theme generators
+  - Complements existing chroma-js/culori for performance-critical operations
 
 - [ ] Investigate `polished` for JavaScript style utility functions — **NEW 2026-03-14 from violet-void scout**
   - Lightweight toolset for writing styles in JavaScript (2KB gzipped)
