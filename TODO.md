@@ -272,6 +272,17 @@
   - Use case: Lightweight color operations in palette tools and theme generators
   - Complements existing chroma-js/culori for performance-critical operations
 
+- [ ] Add `@adobe/leonardo-contrast-colors` for accessible palette generation — **NEW 2026-03-14 from scout**
+  - Adobe's official tool for generating colors based on desired contrast ratio
+  - Generate accessible color variants from base palette colors
+  - Key feature: Input a background color and get foreground colors at specific contrast ratios
+  - Use case: Generate all WCAG-compliant text colors from Violet Void backgrounds
+  - Could automate generation of accessible color variants (AA/AAA compliant)
+  - Link: https://github.com/adobe/leonardo
+  - npm: @adobe/leonardo-contrast-colors
+  - Complements existing WCAG contrast testing with automated variant generation
+  - Useful for: creating accessible color scales, ensuring WCAG compliance across palette
+
 - [ ] Investigate `polished` for JavaScript style utility functions — **NEW 2026-03-14 from violet-void scout**
   - Lightweight toolset for writing styles in JavaScript (2KB gzipped)
   - Color functions: lighten, darken, saturate, desaturate, mix, complement, etc.
