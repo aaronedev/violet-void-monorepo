@@ -12,7 +12,7 @@
   - Documentation: tokens/README.md
   - Future: Add typography, spacing, semantic tokens
 - [x] Add color accessibility checker script (WCAG contrast validation) - a93cbbf
-- [x] Automate theme screenshot generation for README — **DONE 2026-03-14** `pending`
+- [x] Automate theme screenshot generation for README — **DONE 2026-03-14** `efd7d41`
   - Created tools/generate-screenshots.sh using Ray API (ray.tinte.dev)
   - Supports 10 languages: JS, TS, Python, Rust, Go, Bash, CSS, HTML, JSON, Markdown
   - Commands: all, hero, extract, single, list
