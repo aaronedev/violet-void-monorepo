@@ -22,10 +22,13 @@
 
 ## Medium Priority
 
-- [ ] Investigate `rose-pine` patterns for semantic naming and design system — **NEW 2026-03-12 from violet-void scout**
-  - Document key learnings from Rosé Pine's semantic role-based naming (base, surface, overlay, muted, subtle, text, love, gold, rose, pine, foam, iris)
-  - Analyze their variant generation approach (main, moon, dawn)
-  - Create actionable roadmap for adopting similar semantic roles in Violet Void
+- [x] Investigate `rose-pine` patterns for semantic naming and design system — **DONE 2026-03-14** `cd18fef`
+  - Documented in docs/ROSE_PINE_PATTERNS.md
+  - Key learnings: 3-tier background hierarchy (base/surface/overlay), role-based accent colors, 3-level foreground system
+  - Semantic naming: love (errors), gold (warnings), pine (success), foam (info), iris (hints), rose (search/modifications)
+  - Variant strategy: main (dark), moon (darker), dawn (light)
+  - Recommendations: Add background layers, semantic accent mapping, foreground hierarchy, variant generation
+  - Created actionable 4-phase roadmap for adopting semantic roles
 - [x] Add color blindness simulation for accessibility testing — **DONE 2026-03-14** `83ab763`
   - Created tools/colorblind-simulation.py for simulating color vision deficiencies
   - Simulates: protanopia (red-blind), deuteranopia (green-blind), tritanopia (blue-blind)
