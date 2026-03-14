@@ -270,7 +270,7 @@
     - Uses pastel for accurate HSL conversion (with awk fallback)
     - Usage: ./tools/color-sorter.sh [hue|sat|lum|chroma] [json|css|md]
 
-- [ ] Investigate `colord` for high-performance color manipulation — **NEW 2026-03-14 from scout**
+- [x] Investigate `colord` for high-performance color manipulation — **DONE 2026-03-14** `COLORD_PATTERNS.md`
   - Tiny yet powerful color manipulation library (1.5KB gzipped)
   - Faster than chroma-js and culori for common operations
   - Plugin architecture: harmonies, mix, contrast, a11y, minify
@@ -280,8 +280,9 @@
   - Useful for: palette transformations, accessibility checks, theme generation
   - Link: https://github.com/omgovich/colord
   - npm: colord
-  - Use case: Lightweight color operations in palette tools and theme generators
-  - Complements existing chroma-js/culori for performance-critical operations
+  - **Investigation documented in docs/COLORD_PATTERNS.md**
+  - Key findings: Plugin system, accessibility helpers, color names, harmonies
+  - Recommendations: Use for performance-critical operations, keep chroma-js for complex features
 
 - [ ] Add `@adobe/leonardo-contrast-colors` for accessible palette generation — **NEW 2026-03-14 from scout**
   - Adobe's official tool for generating colors based on desired contrast ratio
@@ -293,6 +294,14 @@
   - npm: @adobe/leonardo-contrast-colors
   - Complements existing WCAG contrast testing with automated variant generation
   - Useful for: creating accessible color scales, ensuring WCAG compliance across palette
+
+- [ ] Add `color-name` for offline color naming — **NEW 2026-03-14 from scout**
+  - npm package that maps CSS color names to hex values
+  - Offline, zero-dependency color name lookup
+  - Useful for: generating semantic color names, documentation, palette exports
+  - Link: https://github.com/colorjs/color-name
+  - npm: color-name
+  - Complements existing color-name-lookup.sh tool with npm integration
 
 - [ ] Investigate `polished` for JavaScript style utility functions — **NEW 2026-03-14 from scout**
   - Lightweight toolset for writing styles in JavaScript (2KB gzipped)
@@ -379,6 +388,17 @@
 ## Completed
 
 (none yet)
+
+- [ ] Add `theme-metrics` for theme quality scoring — **NEW 2026-03-14 from scout**
+  - CLI tool to analyze theme quality metrics
+  - Checks: color uniqueness, contrast distribution, hue coverage, saturation balance
+  - Generates scorecard for theme completeness
+  - Could help identify gaps in Violet Void palette
+  - Use case: Quantitative theme analysis beyond manual review
+  - Implementation: Node.js CLI using existing color tools (chroma-js, colord)
+  - Output: Markdown report with scores and recommendations
+  - Useful for: Theme development, comparing variants, identifying improvements
+  - Link: https://github.com/theme-tools/theme-metrics (inspiration)
 
 - [ ] Add `chromatic-adaptive-theme` library - Generate theme variants from base colors
   - Library that takes a color palette and generates theme variants for different platforms
