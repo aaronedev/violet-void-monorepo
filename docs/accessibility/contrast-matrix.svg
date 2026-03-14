@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 500" width="1280" height="500">
+  <style>
+    .title { font: bold 16px system-ui, sans-serif; fill: #c4b5fd; }
+    .bg-label { font: 11px system-ui, sans-serif; fill: #a78bfa; }
+    .fg-label { font: 9px system-ui, sans-serif; fill: #a78bfa; writing-mode: vertical-rl; text-orientation: mixed; }
+    .ratio { font: 9px system-ui, sans-serif; fill: #1a1a2e; font-weight: 500; }
+    .legend-text { font: 10px system-ui, sans-serif; fill: #a78bfa; }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="20" y="25" class="title">Violet Void - WCAG Contrast Matrix</text>
+
+  <!-- Legend -->
+  <g transform="translate(20, 45)">
+    <rect x="0" y="0" width="12" height="12" fill="#4ade80" rx="2"/>
+    <text x="18" y="10" class="legend-text">AAA (7:1+)</text>
+    <rect x="90" y="0" width="12" height="12" fill="#60a5fa" rx="2"/>
+    <text x="108" y="10" class="legend-text">AA (4.5:1+)</text>
+    <rect x="190" y="0" width="12" height="12" fill="#fbbf24" rx="2"/>
+    <text x="208" y="10" class="legend-text">AA-Large (3:1+)</text>
+    <rect x="310" y="0" width="12" height="12" fill="#f87171" rx="2"/>
+    <text x="328" y="10" class="legend-text">Fail (&lt;3:1)</text>
+  </g>
+  <text x="130" y="85" class="fg-label" transform="rotate(-45, 130, 85)">fg</text>
+  <text x="190" y="85" class="fg-label" transform="rotate(-45, 190, 85)">fgDark</text>
+  <text x="250" y="85" class="fg-label" transform="rotate(-45, 250, 85)">fgMuted</text>
+  <text x="310" y="85" class="fg-label" transform="rotate(-45, 310, 85)">fgComment</text>
+  <text x="370" y="85" class="fg-label" transform="rotate(-45, 370, 85)">white</text>
+  <text x="430" y="85" class="fg-label" transform="rotate(-45, 430, 85)">red</text>
+  <text x="490" y="85" class="fg-label" transform="rotate(-45, 490, 85)">redBright</text>
+  <text x="550" y="85" class="fg-label" transform="rotate(-45, 550, 85)">green</text>
+  <text x="610" y="85" class="fg-label" transform="rotate(-45, 610, 85)">greenBright</text>
+  <text x="670" y="85" class="fg-label" transform="rotate(-45, 670, 85)">blue</text>
+  <text x="730" y="85" class="fg-label" transform="rotate(-45, 730, 85)">blueBright</text>
+  <text x="790" y="85" class="fg-label" transform="rotate(-45, 790, 85)">cyan</text>
+  <text x="850" y="85" class="fg-label" transform="rotate(-45, 850, 85)">cyanBright</text>
+  <text x="910" y="85" class="fg-label" transform="rotate(-45, 910, 85)">magenta</text>
+  <text x="970" y="85" class="fg-label" transform="rotate(-45, 970, 85)">magentaBright</text>
+  <text x="1030" y="85" class="fg-label" transform="rotate(-45, 1030, 85)">purple</text>
+  <text x="1090" y="85" class="fg-label" transform="rotate(-45, 1090, 85)">purpleBright</text>
+  <text x="1150" y="85" class="fg-label" transform="rotate(-45, 1150, 85)">orange</text>
+  <text x="1210" y="85" class="fg-label" transform="rotate(-45, 1210, 85)">yellow</text>
+  <text x="10" y="154" class="bg-label">bg</text>
+  <rect x="100" y="120" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="129" y="153" class="ratio" text-anchor="middle">17.94</text>
+  <rect x="160" y="120" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="189" y="153" class="ratio" text-anchor="middle">1.54</text>
+  <rect x="220" y="120" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="249" y="153" class="ratio" text-anchor="middle">2</text>
+  <rect x="280" y="120" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="309" y="153" class="ratio" text-anchor="middle">2.37</text>
+  <rect x="340" y="120" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="369" y="153" class="ratio" text-anchor="middle">16.48</text>
+  <rect x="400" y="120" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="429" y="153" class="ratio" text-anchor="middle">5.43</text>
+  <rect x="460" y="120" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="489" y="153" class="ratio" text-anchor="middle">5.2</text>
+  <rect x="520" y="120" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="549" y="153" class="ratio" text-anchor="middle">15.51</text>
+  <rect x="580" y="120" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="609" y="153" class="ratio" text-anchor="middle">15.66</text>
+  <rect x="640" y="120" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="669" y="153" class="ratio" text-anchor="middle">8.26</text>
+  <rect x="700" y="120" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="729" y="153" class="ratio" text-anchor="middle">11.38</text>
+  <rect x="760" y="120" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="789" y="153" class="ratio" text-anchor="middle">6.93</text>
+  <rect x="820" y="120" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="849" y="153" class="ratio" text-anchor="middle">16.18</text>
+  <rect x="880" y="120" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="909" y="153" class="ratio" text-anchor="middle">5.32</text>
+  <rect x="940" y="120" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="969" y="153" class="ratio" text-anchor="middle">5.46</text>
+  <rect x="1000" y="120" width="58" height="58" fill="#fbbf24" rx="4"/>
+  <text x="1029" y="153" class="ratio" text-anchor="middle">4.32</text>
+  <rect x="1060" y="120" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1089" y="153" class="ratio" text-anchor="middle">9.22</text>
+  <rect x="1120" y="120" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1149" y="153" class="ratio" text-anchor="middle">8.19</text>
+  <rect x="1180" y="120" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1209" y="153" class="ratio" text-anchor="middle">14.8</text>
+  <text x="10" y="214" class="bg-label">bgDark</text>
+  <rect x="100" y="180" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="129" y="213" class="ratio" text-anchor="middle">16.99</text>
+  <rect x="160" y="180" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="189" y="213" class="ratio" text-anchor="middle">1.46</text>
+  <rect x="220" y="180" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="249" y="213" class="ratio" text-anchor="middle">1.89</text>
+  <rect x="280" y="180" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="309" y="213" class="ratio" text-anchor="middle">2.25</text>
+  <rect x="340" y="180" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="369" y="213" class="ratio" text-anchor="middle">15.61</text>
+  <rect x="400" y="180" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="429" y="213" class="ratio" text-anchor="middle">5.14</text>
+  <rect x="460" y="180" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="489" y="213" class="ratio" text-anchor="middle">4.92</text>
+  <rect x="520" y="180" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="549" y="213" class="ratio" text-anchor="middle">14.69</text>
+  <rect x="580" y="180" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="609" y="213" class="ratio" text-anchor="middle">14.84</text>
+  <rect x="640" y="180" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="669" y="213" class="ratio" text-anchor="middle">7.83</text>
+  <rect x="700" y="180" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="729" y="213" class="ratio" text-anchor="middle">10.78</text>
+  <rect x="760" y="180" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="789" y="213" class="ratio" text-anchor="middle">6.56</text>
+  <rect x="820" y="180" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="849" y="213" class="ratio" text-anchor="middle">15.33</text>
+  <rect x="880" y="180" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="909" y="213" class="ratio" text-anchor="middle">5.04</text>
+  <rect x="940" y="180" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="969" y="213" class="ratio" text-anchor="middle">5.18</text>
+  <rect x="1000" y="180" width="58" height="58" fill="#fbbf24" rx="4"/>
+  <text x="1029" y="213" class="ratio" text-anchor="middle">4.09</text>
+  <rect x="1060" y="180" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1089" y="213" class="ratio" text-anchor="middle">8.74</text>
+  <rect x="1120" y="180" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1149" y="213" class="ratio" text-anchor="middle">7.76</text>
+  <rect x="1180" y="180" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1209" y="213" class="ratio" text-anchor="middle">14.01</text>
+  <text x="10" y="274" class="bg-label">bgHighlight</text>
+  <rect x="100" y="240" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="129" y="273" class="ratio" text-anchor="middle">15.48</text>
+  <rect x="160" y="240" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="189" y="273" class="ratio" text-anchor="middle">1.33</text>
+  <rect x="220" y="240" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="249" y="273" class="ratio" text-anchor="middle">1.72</text>
+  <rect x="280" y="240" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="309" y="273" class="ratio" text-anchor="middle">2.05</text>
+  <rect x="340" y="240" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="369" y="273" class="ratio" text-anchor="middle">14.22</text>
+  <rect x="400" y="240" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="429" y="273" class="ratio" text-anchor="middle">4.68</text>
+  <rect x="460" y="240" width="58" height="58" fill="#fbbf24" rx="4"/>
+  <text x="489" y="273" class="ratio" text-anchor="middle">4.48</text>
+  <rect x="520" y="240" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="549" y="273" class="ratio" text-anchor="middle">13.38</text>
+  <rect x="580" y="240" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="609" y="273" class="ratio" text-anchor="middle">13.51</text>
+  <rect x="640" y="240" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="669" y="273" class="ratio" text-anchor="middle">7.13</text>
+  <rect x="700" y="240" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="729" y="273" class="ratio" text-anchor="middle">9.82</text>
+  <rect x="760" y="240" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="789" y="273" class="ratio" text-anchor="middle">5.98</text>
+  <rect x="820" y="240" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="849" y="273" class="ratio" text-anchor="middle">13.96</text>
+  <rect x="880" y="240" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="909" y="273" class="ratio" text-anchor="middle">4.59</text>
+  <rect x="940" y="240" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="969" y="273" class="ratio" text-anchor="middle">4.71</text>
+  <rect x="1000" y="240" width="58" height="58" fill="#fbbf24" rx="4"/>
+  <text x="1029" y="273" class="ratio" text-anchor="middle">3.73</text>
+  <rect x="1060" y="240" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1089" y="273" class="ratio" text-anchor="middle">7.96</text>
+  <rect x="1120" y="240" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1149" y="273" class="ratio" text-anchor="middle">7.06</text>
+  <rect x="1180" y="240" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1209" y="273" class="ratio" text-anchor="middle">12.76</text>
+  <text x="10" y="334" class="bg-label">bgSelection</text>
+  <rect x="100" y="300" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="129" y="333" class="ratio" text-anchor="middle">16.88</text>
+  <rect x="160" y="300" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="189" y="333" class="ratio" text-anchor="middle">1.45</text>
+  <rect x="220" y="300" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="249" y="333" class="ratio" text-anchor="middle">1.88</text>
+  <rect x="280" y="300" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="309" y="333" class="ratio" text-anchor="middle">2.23</text>
+  <rect x="340" y="300" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="369" y="333" class="ratio" text-anchor="middle">15.5</text>
+  <rect x="400" y="300" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="429" y="333" class="ratio" text-anchor="middle">5.11</text>
+  <rect x="460" y="300" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="489" y="333" class="ratio" text-anchor="middle">4.89</text>
+  <rect x="520" y="300" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="549" y="333" class="ratio" text-anchor="middle">14.59</text>
+  <rect x="580" y="300" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="609" y="333" class="ratio" text-anchor="middle">14.73</text>
+  <rect x="640" y="300" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="669" y="333" class="ratio" text-anchor="middle">7.77</text>
+  <rect x="700" y="300" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="729" y="333" class="ratio" text-anchor="middle">10.71</text>
+  <rect x="760" y="300" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="789" y="333" class="ratio" text-anchor="middle">6.51</text>
+  <rect x="820" y="300" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="849" y="333" class="ratio" text-anchor="middle">15.22</text>
+  <rect x="880" y="300" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="909" y="333" class="ratio" text-anchor="middle">5</text>
+  <rect x="940" y="300" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="969" y="333" class="ratio" text-anchor="middle">5.14</text>
+  <rect x="1000" y="300" width="58" height="58" fill="#fbbf24" rx="4"/>
+  <text x="1029" y="333" class="ratio" text-anchor="middle">4.06</text>
+  <rect x="1060" y="300" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1089" y="333" class="ratio" text-anchor="middle">8.67</text>
+  <rect x="1120" y="300" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1149" y="333" class="ratio" text-anchor="middle">7.7</text>
+  <rect x="1180" y="300" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1209" y="333" class="ratio" text-anchor="middle">13.92</text>
+  <text x="10" y="394" class="bg-label">black</text>
+  <rect x="100" y="360" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="129" y="393" class="ratio" text-anchor="middle">15.63</text>
+  <rect x="160" y="360" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="189" y="393" class="ratio" text-anchor="middle">1.35</text>
+  <rect x="220" y="360" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="249" y="393" class="ratio" text-anchor="middle">1.74</text>
+  <rect x="280" y="360" width="58" height="58" fill="#f87171" rx="4"/>
+  <text x="309" y="393" class="ratio" text-anchor="middle">2.07</text>
+  <rect x="340" y="360" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="369" y="393" class="ratio" text-anchor="middle">14.36</text>
+  <rect x="400" y="360" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="429" y="393" class="ratio" text-anchor="middle">4.73</text>
+  <rect x="460" y="360" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="489" y="393" class="ratio" text-anchor="middle">4.53</text>
+  <rect x="520" y="360" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="549" y="393" class="ratio" text-anchor="middle">13.51</text>
+  <rect x="580" y="360" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="609" y="393" class="ratio" text-anchor="middle">13.65</text>
+  <rect x="640" y="360" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="669" y="393" class="ratio" text-anchor="middle">7.2</text>
+  <rect x="700" y="360" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="729" y="393" class="ratio" text-anchor="middle">9.92</text>
+  <rect x="760" y="360" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="789" y="393" class="ratio" text-anchor="middle">6.03</text>
+  <rect x="820" y="360" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="849" y="393" class="ratio" text-anchor="middle">14.1</text>
+  <rect x="880" y="360" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="909" y="393" class="ratio" text-anchor="middle">4.64</text>
+  <rect x="940" y="360" width="58" height="58" fill="#60a5fa" rx="4"/>
+  <text x="969" y="393" class="ratio" text-anchor="middle">4.76</text>
+  <rect x="1000" y="360" width="58" height="58" fill="#fbbf24" rx="4"/>
+  <text x="1029" y="393" class="ratio" text-anchor="middle">3.76</text>
+  <rect x="1060" y="360" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1089" y="393" class="ratio" text-anchor="middle">8.04</text>
+  <rect x="1120" y="360" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1149" y="393" class="ratio" text-anchor="middle">7.13</text>
+  <rect x="1180" y="360" width="58" height="58" fill="#4ade80" rx="4"/>
+  <text x="1209" y="393" class="ratio" text-anchor="middle">12.89</text>
+</svg>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Violet Void - WCAG Contrast Matrix</title>
+  <style>
+    :root {
+      --bg: #1a1a2e;
+      --bg-secondary: #16213e;
+      --fg: #e2e2e2;
+      --fg-muted: #a78bfa;
+      --accent: #7c60d1;
+    }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: var(--fg-muted);
+      margin-bottom: 10px;
+    }
+    .legend {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .legend-box {
+      width: 16px;
+      height: 16px;
+      border-radius: 3px;
+    }
+    .aaa { background: #4ade80; }
+    .aa { background: #60a5fa; }
+    .aa-large { background: #fbbf24; }
+    .fail { background: #f87171; }
+    table {
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+    th, td {
+      padding: 8px;
+      text-align: center;
+      border: 1px solid var(--bg-secondary);
+    }
+    th {
+      background: var(--bg-secondary);
+      color: var(--fg-muted);
+      font-weight: 500;
+    }
+    td.bg-label {
+      text-align: left;
+      color: var(--fg-muted);
+      font-weight: 500;
+    }
+    td.cell {
+      font-weight: 600;
+      color: #1a1a2e;
+      min-width: 50px;
+    }
+    .summary {
+      margin-top: 20px;
+      padding: 15px;
+      background: var(--bg-secondary);
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Violet Void - WCAG Contrast Matrix</h1>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-box aaa"></div> AAA (7:1+)</div>
+    <div class="legend-item"><div class="legend-box aa"></div> AA (4.5:1+)</div>
+    <div class="legend-item"><div class="legend-box aa-large"></div> AA-Large (3:1+)</div>
+    <div class="legend-item"><div class="legend-box fail"></div> Fail (&lt;3:1)</div>
+  </div>
+  <table>
+    <thead>
+      <tr><th>Background</th>
+        <th>fg</th>
+        <th>fgDark</th>
+        <th>fgMuted</th>
+        <th>fgComment</th>
+        <th>white</th>
+        <th>red</th>
+        <th>redBright</th>
+        <th>green</th>
+        <th>greenBright</th>
+        <th>blue</th>
+        <th>blueBright</th>
+        <th>cyan</th>
+        <th>cyanBright</th>
+        <th>magenta</th>
+        <th>magentaBright</th>
+        <th>purple</th>
+        <th>purpleBright</th>
+        <th>orange</th>
+        <th>yellow</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="bg-label">bg</td>
+        <td class="cell aaa">17.94</td>
+        <td class="cell fail">1.54</td>
+        <td class="cell fail">2</td>
+        <td class="cell fail">2.37</td>
+        <td class="cell aaa">16.48</td>
+        <td class="cell aa">5.43</td>
+        <td class="cell aa">5.2</td>
+        <td class="cell aaa">15.51</td>
+        <td class="cell aaa">15.66</td>
+        <td class="cell aaa">8.26</td>
+        <td class="cell aaa">11.38</td>
+        <td class="cell aa">6.93</td>
+        <td class="cell aaa">16.18</td>
+        <td class="cell aa">5.32</td>
+        <td class="cell aa">5.46</td>
+        <td class="cell aa-large">4.32</td>
+        <td class="cell aaa">9.22</td>
+        <td class="cell aaa">8.19</td>
+        <td class="cell aaa">14.8</td>
+      </tr>
+      <tr>
+        <td class="bg-label">bgDark</td>
+        <td class="cell aaa">16.99</td>
+        <td class="cell fail">1.46</td>
+        <td class="cell fail">1.89</td>
+        <td class="cell fail">2.25</td>
+        <td class="cell aaa">15.61</td>
+        <td class="cell aa">5.14</td>
+        <td class="cell aa">4.92</td>
+        <td class="cell aaa">14.69</td>
+        <td class="cell aaa">14.84</td>
+        <td class="cell aaa">7.83</td>
+        <td class="cell aaa">10.78</td>
+        <td class="cell aa">6.56</td>
+        <td class="cell aaa">15.33</td>
+        <td class="cell aa">5.04</td>
+        <td class="cell aa">5.18</td>
+        <td class="cell aa-large">4.09</td>
+        <td class="cell aaa">8.74</td>
+        <td class="cell aaa">7.76</td>
+        <td class="cell aaa">14.01</td>
+      </tr>
+      <tr>
+        <td class="bg-label">bgHighlight</td>
+        <td class="cell aaa">15.48</td>
+        <td class="cell fail">1.33</td>
+        <td class="cell fail">1.72</td>
+        <td class="cell fail">2.05</td>
+        <td class="cell aaa">14.22</td>
+        <td class="cell aa">4.68</td>
+        <td class="cell aa-large">4.48</td>
+        <td class="cell aaa">13.38</td>
+        <td class="cell aaa">13.51</td>
+        <td class="cell aaa">7.13</td>
+        <td class="cell aaa">9.82</td>
+        <td class="cell aa">5.98</td>
+        <td class="cell aaa">13.96</td>
+        <td class="cell aa">4.59</td>
+        <td class="cell aa">4.71</td>
+        <td class="cell aa-large">3.73</td>
+        <td class="cell aaa">7.96</td>
+        <td class="cell aaa">7.06</td>
+        <td class="cell aaa">12.76</td>
+      </tr>
+      <tr>
+        <td class="bg-label">bgSelection</td>
+        <td class="cell aaa">16.88</td>
+        <td class="cell fail">1.45</td>
+        <td class="cell fail">1.88</td>
+        <td class="cell fail">2.23</td>
+        <td class="cell aaa">15.5</td>
+        <td class="cell aa">5.11</td>
+        <td class="cell aa">4.89</td>
+        <td class="cell aaa">14.59</td>
+        <td class="cell aaa">14.73</td>
+        <td class="cell aaa">7.77</td>
+        <td class="cell aaa">10.71</td>
+        <td class="cell aa">6.51</td>
+        <td class="cell aaa">15.22</td>
+        <td class="cell aa">5</td>
+        <td class="cell aa">5.14</td>
+        <td class="cell aa-large">4.06</td>
+        <td class="cell aaa">8.67</td>
+        <td class="cell aaa">7.7</td>
+        <td class="cell aaa">13.92</td>
+      </tr>
+      <tr>
+        <td class="bg-label">black</td>
+        <td class="cell aaa">15.63</td>
+        <td class="cell fail">1.35</td>
+        <td class="cell fail">1.74</td>
+        <td class="cell fail">2.07</td>
+        <td class="cell aaa">14.36</td>
+        <td class="cell aa">4.73</td>
+        <td class="cell aa">4.53</td>
+        <td class="cell aaa">13.51</td>
+        <td class="cell aaa">13.65</td>
+        <td class="cell aaa">7.2</td>
+        <td class="cell aaa">9.92</td>
+        <td class="cell aa">6.03</td>
+        <td class="cell aaa">14.1</td>
+        <td class="cell aa">4.64</td>
+        <td class="cell aa">4.76</td>
+        <td class="cell aa-large">3.76</td>
+        <td class="cell aaa">8.04</td>
+        <td class="cell aaa">7.13</td>
+        <td class="cell aaa">12.89</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    <strong>Summary:</strong>
+    AAA: 50 | AA: 30 | Failed: 15 | Total: 95 combinations
+  </div>
+</body>
+</html>
