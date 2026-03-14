@@ -208,7 +208,7 @@
   - Link: https://color.io/
   - Use case: Visual validation of palette color relationships
 
-- [ ] Investigate `Radix Colors` for accessibility-first color system patterns — **NEW 2026-03-14 from scout**
+- [x] Investigate `Radix Colors` for accessibility-first color system patterns — **DONE 2026-03-14** `radix-patterns`
   - Systematic color scales designed for accessible UI development
   - 12-step lightness scales for each hue with semantic naming
   - Built-in WCAG compliance: each step tested against white/black
@@ -217,7 +217,9 @@
   - Could inform better accent color variations for Violet Void
   - Link: https://www.radix-ui.com/colors
   - GitHub: https://github.com/radix-ui/colors
-  - Key learnings: semantic naming (1-12 scale), alpha variants, automatic dark mode
+  - **Investigation documented in docs/RADIX_COLORS_PATTERNS.md**
+  - Key learnings: 12-step scale system, semantic color roles, alpha variants, P3 support
+  - Recommendations: numbered scale system, semantic color mapping, dark mode variants
 
 - [x] Investigate `chroma-js` for advanced color manipulation — **DONE 2026-03-14** `97ac779`
   - Powerful JavaScript library for color conversions and manipulations
@@ -247,6 +249,15 @@
   - Link: https://tinte.dev
   - GitHub: https://github.com/Railly/tinte
   - Use case: Automate README screenshots, theme preview generation, palette extraction
+
+- [ ] Add `color-sorter` for palette color organization — **NEW 2026-03-14 from scout**
+  - Sort colors by hue, luminosity, or chroma for better palette organization
+  - Helps identify color gaps and redundancies in palette
+  - Could improve palette documentation with sorted color swatches
+  - npm: color-sorter (simple CLI tool)
+  - Alternative: custom script using chroma-js or culori
+  - Use case: Generate sorted palette views for documentation and analysis
+  - Useful for: palette refinement, documentation, color harmony analysis
 
 - [ ] Investigate `colord` for high-performance color manipulation — **NEW 2026-03-14 from scout**
   - Tiny yet powerful color manipulation library (1.5KB gzipped)
