@@ -202,7 +202,7 @@
   - Key findings: OKLCH for perceptual uniformity, color sorting/filtering, harmony generation
   - Recommendations: Upgrade palette-analyzer, create harmony-generator tool
 
-- [ ] Investigate `color.io` for browser-based palette visualization — **NEW 2026-03-14 from scout**
+- [x] Investigate `color.io` for browser-based palette visualization — **DONE 2026-03-14 `COLOR_IO_PATTERNS.md`**
   - Web-based color space visualization and palette analysis tool
   - Real-time OKLCH/LCH color picker with gamut mapping
   - Visualize color relationships and harmonies interactively
@@ -210,6 +210,9 @@
   - Could inform better color selection for future Violet Void variants
   - Link: https://color.io/
   - Use case: Visual validation of palette color relationships
+  - **Investigation documented in docs/COLOR_IO_PATTERNS.md**
+  - Key findings: OKLCH visualization, gamut mapping, color harmony tools
+  - Recommendations: Use for palette validation, documentation assets, variant exploration
 
 - [x] Investigate `Radix Colors` for accessibility-first color system patterns — **DONE 2026-03-14** `radix-patterns`
   - Systematic color scales designed for accessible UI development
@@ -290,6 +293,21 @@
   - npm: @adobe/leonardo-contrast-colors
   - Complements existing WCAG contrast testing with automated variant generation
   - Useful for: creating accessible color scales, ensuring WCAG compliance across palette
+
+- [ ] Investigate `polished` for JavaScript style utility functions — **NEW 2026-03-14 from scout**
+  - Lightweight toolset for writing styles in JavaScript (2KB gzipped)
+  - Color functions: lighten, darken, saturate, desaturate, mix, complement, transparentize, opacify
+  - Shorthand property helpers: margin, padding, border, size, position, etc.
+  - State helpers: hover, active, focus, disabled, etc.
+  - Selector helpers: selection, first-child, last-child, nth-child, etc.
+  - Could create a Violet Void theme generator using polished utilities
+  - Better than writing manual CSS color manipulation functions
+  - Complements existing chroma-js/culori for runtime color operations
+  - Useful for: web-based theme preview, dynamic theme variations, theme playground
+  - Link: https://polished.js.org/
+  - GitHub: https://github.com/styled-components/polished
+  - npm: polished
+  - Example: Generate lighter/darker variants for hover states programmatically
 
 - [ ] Investigate `polished` for JavaScript style utility functions — **NEW 2026-03-14 from violet-void scout**
   - Lightweight toolset for writing styles in JavaScript (2KB gzipped)
