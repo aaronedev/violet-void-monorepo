@@ -167,7 +167,7 @@
   - Better for perceptually uniform color interpolation than HSL/RGB
   - Use case: Upgrade the tint-shade-generator for more natural color gradients
 
-- [ ] Add `huetiful-js` for advanced color manipulations — **NEW 2026-03-14 from scout**
+- [x] Add `huetiful-js` for advanced color manipulations — **DONE 2026-03-14** `342639e`
   - Comprehensive color library with 50+ color manipulation functions
   - Supports OKLCH, OKLAB, and other modern color spaces
   - Features: color sorting, filtering, interpolation, harmonies
@@ -177,6 +177,9 @@
   - npm: huetiful-js
   - Use case: Create perceptually uniform gradients and color harmonies
   - Alternative to culori with more focused API for theme development
+  - **Investigation documented in docs/HUETIFUL_PATTERNS.md**
+  - Key findings: OKLCH for perceptual uniformity, color sorting/filtering, harmony generation
+  - Recommendations: Upgrade palette-analyzer, create harmony-generator tool
 
 - [ ] Investigate `color.io` for browser-based palette visualization — **NEW 2026-03-14 from scout**
   - Web-based color space visualization and palette analysis tool
