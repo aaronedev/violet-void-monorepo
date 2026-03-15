@@ -1,0 +1,105 @@
+## Scout Results - 2026-03-15
+
+### Priority Queue
+- archwiki: 601 unchecked (highest priority - CSS migration)
+- nvim: 29 unchecked (Terminal - Base16 color audit)
+- netcup: 6 unchecked (CSS)
+- geizhals: 6 unchecked (CSS)
+- crackboard: 6 unchecked (CSS)
+- obsidian: 5 unchecked (CSS)
+- chatgpt: 4 unchecked (CSS)
+- tridactyl: 5 unchecked (CSS)
+- telegram: 4 unchecked (Other)
+- iterm: 7 unchecked (Terminal)
+- discord: 7 unchecked (Other)
+- windows_terminal: 7 unchecked (Terminal)
+- termux: 7 unchecked (Terminal)
+- alacritty: 7 unchecked (Terminal)
+- dunst: 7 unchecked (Other)
+- spotify_player: 7 unchecked (Other)
+- delta: 7 unchecked (Other)
+- helix: 7 unchecked (Terminal)
+- xfceterm: 7 unchecked (Terminal)
+- slack: 8 unchecked (Other)
+- rofi: 5 unchecked (Other)
+- waybar: 5 unchecked (Other)
+- aerc: 5 unchecked (Other)
+- eza: 5 unchecked (Other)
+- zellij: 7 unchecked (Terminal)
+- gitui: 7 unchecked (Other)
+- wofi: 5 unchecked (Other)
+- gnome_terminal: 7 unchecked (Terminal)
+- cava: 7 unchecked (Other)
+- lua: 7 unchecked (Other)
+- foot: 7 unchecked (Terminal)
+- fuzzel: 7 unchecked (Other)
+- terminator: 7 unchecked (Terminal)
+- process_compose: 7 unchecked (Other)
+- xresources: 7 unchecked (Other)
+- wezterm: 7 unchecked (Terminal)
+- zathura: 7 unchecked (Other)
+- prism: 7 unchecked (Other)
+- vimium: 7 unchecked (Other)
+- vim: 7 unchecked (Terminal)
+- fish: 7 unchecked (Shell)
+- tmux: 7 unchecked (Terminal)
+- tilix: 7 unchecked (Terminal)
+- fish_themes: 7 unchecked (Shell)
+- kitty: 7 unchecked (Terminal)
+- st: 7 unchecked (Terminal)
+- dircolors: 7 unchecked (Other)
+- atuin: 5 unchecked (Other)
+- clipe: 5 unchecked (Other)
+- tailspin: 5 unchecked (Terminal)
+
+### Top Item Per Theme
+- archwiki: Native CSS nesting migration path
+- nvim: Fix Base16 color naming in colors/init.lua (audit shows base
+- netcup: **Modern CSS Feature Audit**
+- geizhals: **Modern CSS Feature Audit**
+- crackboard: **Modern CSS Feature Audit**
+- obsidian: **Modern CSS Features**
+- chatgpt: **Code Quality**
+- tridactyl: **Modern CSS Features**
+- telegram: **Complete Color Mapping**
+- iterm: Replace stub LICENSE file with full MIT license text
+- discord: Replace stub LICENSE file with full MIT license text
+- windows_terminal: Replace stub LICENSE file with full MIT license text
+- termux: Replace stub LICENSE file with full MIT license text
+- alacritty: Replace stub LICENSE file with full MIT license text
+- dunst: Replace stub LICENSE file with full MIT license text
+- spotify_player: Replace stub LICENSE file with full MIT license text
+- delta: Replace stub LICENSE file with full MIT license text
+- helix: Replace stub LICENSE file with full MIT license text
+- xfceterm: Replace stub LICENSE file with full MIT license text
+- slack: Replace stub LICENSE file with full MIT license text
+- rofi: Add screenshot or preview image showing the theme in action
+- waybar: Add screenshot or preview image showing the theme in action
+- aerc: Add screenshot or preview image showing the theme in action
+- eza: Add screenshot or preview image showing the theme in action
+- zellij: Replace stub LICENSE file with full MIT license text
+- gitui: Replace stub LICENSE file with full MIT license text
+- wofi: Add screenshot or preview image showing the theme in action
+- gnome_terminal: Replace stub LICENSE file with full MIT license text
+- cava: Replace stub LICENSE file with full MIT license text
+- lua: Replace stub LICENSE file with full MIT license text
+- foot: Replace stub LICENSE file with full MIT license text
+- fuzzel: Replace stub LICENSE file with full MIT license text
+- terminator: Replace stub LICENSE file with full MIT license text
+- process_compose: Replace stub LICENSE file with full MIT license text
+- xresources: Replace stub LICENSE file with full MIT license text
+- wezterm: Replace stub LICENSE file with full MIT license text
+- zathura: Replace stub LICENSE file with full MIT license text
+- prism: Replace stub LICENSE file with full MIT license text
+- vimium: Replace stub LICENSE file with full MIT license text
+- vim: Replace stub LICENSE file with full MIT license text
+- fish: Replace stub LICENSE file with full MIT license text
+- tmux: Replace stub LICENSE file with full MIT license text
+- tilix: Replace stub LICENSE file with full MIT license text
+- fish_themes: Replace stub LICENSE file with full MIT license text
+- kitty: Replace stub LICENSE file with full MIT license text
+- st: Replace stub LICENSE file with full MIT license text
+- dircolors: Replace stub LICENSE file with full MIT license text
+- atuin: Add screenshot or preview image showing the theme in action
+- clipe: Add screenshot or preview image showing the theme in action
+- tailspin: Add screenshot or preview image showing the theme in action
