@@ -1,15 +1,29 @@
 ## Scout Results - 2026-03-16
 
 ### Priority Queue
-- **nvim**: 11 unchecked (highest priority items)
+
+#### CSS/Stylus Themes (Highest Priority)
+- obsidian: 1 unchecked
+- archwiki: 0 unchecked
+- chatgpt: 0 unchecked
+- netcup: 0 unchecked
+- crackboard: 0 unchecked
+
+#### Terminal Themes
+- nvim: 11 unchecked (highest priority items)
+- helix: 7 unchecked
+- kitty: 7 unchecked
+- alacritty: 7 unchecked
+- wezterm: 7 unchecked
+- vim: 7 unchecked
+
+#### Other Apps
 - slack: 8 unchecked
 - zellij: 7 unchecked
 - zathura: 7 unchecked
 - xresources: 7 unchecked
 - xfceterm: 7 unchecked
 - windows_terminal: 7 unchecked
-- wezterm: 7 unchecked
-- vim: 7 unchecked
 - vimium: 7 unchecked
 - tmux: 7 unchecked
 - tilix: 7 unchecked
@@ -20,22 +34,19 @@
 - process_compose: 7 unchecked
 - prism: 7 unchecked
 - lua: 7 unchecked
-- kitty: 7 unchecked
 - iterm: 7 unchecked
-- helix: 7 unchecked
 - gnome_terminal: 7 unchecked
 - gitui: 7 unchecked
 - fuzzel: 7 unchecked
 - foot: 7 unchecked
-- fish: 7 unchecked
 - fish_themes: 7 unchecked
+- fish: 7 unchecked
 - dunst: 7 unchecked
 - discord: 7 unchecked
 - dircolors: 7 unchecked
 - delta: 7 unchecked
 - cava: 7 unchecked
-- alacritty: 7 unchecked
-- wof i: 5 unchecked
+- wofi: 5 unchecked
 - waybar: 5 unchecked
 - tailspin: 5 unchecked
 - rofi: 5 unchecked
@@ -45,9 +56,9 @@
 - aerc: 5 unchecked
 - geizhals: 4 unchecked
 - telegram: 2 unchecked
-- obsidian: 1 unchecked
 
 ### Top Item Per Theme
+
 - nvim: Test theme with all 70+ supported plugins
 - slack: Replace stub LICENSE file with full MIT license text
 - zellij: Replace stub LICENSE file with full MIT license text
@@ -56,8 +67,8 @@
 - xfceterm: Replace stub LICENSE file with full MIT license text
 - windows_terminal: Replace stub LICENSE file with full MIT license text
 - wezterm: Replace stub LICENSE file with full MIT license text
-- vim: Replace stub LICENSE file with full MIT license text
 - vimium: Replace stub LICENSE file with full MIT license text
+- vim: Replace stub LICENSE file with full MIT license text
 - tmux: Replace stub LICENSE file with full MIT license text
 - tilix: Replace stub LICENSE file with full MIT license text
 - termux: Replace stub LICENSE file with full MIT license text
@@ -74,8 +85,8 @@
 - gitui: Replace stub LICENSE file with full MIT license text
 - fuzzel: Replace stub LICENSE file with full MIT license text
 - foot: Replace stub LICENSE file with full MIT license text
-- fish: Replace stub LICENSE file with full MIT license text
 - fish_themes: Replace stub LICENSE file with full MIT license text
+- fish: Replace stub LICENSE file with full MIT license text
 - dunst: Replace stub LICENSE file with full MIT license text
 - discord: Replace stub LICENSE file with full MIT license text
 - dircolors: Replace stub LICENSE file with full MIT license text
@@ -93,21 +104,3 @@
 - geizhals: **Accessibility Review**
 - telegram: **Platform Variants**
 - obsidian: **Plugin Compatibility**
-- tridactyl: (none)
-- netcup: (none)
-- crackboard: (none)
-- chatgpt: (none)
-- archwiki: (none)
-
----
-
-## Violet Void - Scout
-### Summary
-- Themes scanned: 50
-- Themes with TODOs: 46
-- Total unchecked items: ~250+
-- Top priority: nvim (11 unchecked - plugin testing)
-
-### Stats
-- Time: 2026-03-16 09:49 UTC
-- Status: ✅
