@@ -172,3 +172,6 @@
 [submodule "themes/lua"]
 	path = themes/lua
 	url = https://github.com/aaronedev/violet-void-theme_lua.git
+[submodule "themes/opencode"]
+	path = themes/opencode
+	url = https://github.com/aaronedev/violet-void-theme_opencode.git
