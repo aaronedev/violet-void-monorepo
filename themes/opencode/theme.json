@@ -1,0 +1,239 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "name": "Violet Void Nord",
+  "defs": {
+    "nord0": "#2E3440",
+    "nord1": "#3B4252",
+    "nord2": "#434C5E",
+    "nord3": "#4C566A",
+    "nord4": "#D8DEE9",
+    "nord5": "#E5E9F0",
+    "nord6": "#ECEFF4",
+    "nord7": "#8FBCBB",
+    "nord8": "#88C0D0",
+    "nord9": "#81A1C1",
+    "nord10": "#5E81AC",
+    "nord11": "#BF616A",
+    "nord12": "#D08770",
+    "nord13": "#EBCB8B",
+    "nord14": "#A3BE8C",
+    "nord15": "#B48EAD",
+    "vv0": "#0d0d12",
+    "vv1": "#13131a",
+    "vv2": "#1a1a24",
+    "vv3": "#22222e",
+    "vv4": "#2b2b38",
+    "vv5": "#35354a",
+    "vv6": "#4d4d6a",
+    "vv7": "#a78bfa",
+    "vv8": "#8b5cf6",
+    "vv9": "#7c3aed",
+    "vv10": "#6d28d9",
+    "vv11": "#c4b5fd",
+    "vv12": "#ddd6fe",
+    "vv13": "#ede9fe",
+    "vv14": "#e9d5ff"
+  },
+  "theme": {
+    "primary": {
+      "dark": "vv8",
+      "light": "vv9"
+    },
+    "secondary": {
+      "dark": "vv7",
+      "light": "vv8"
+    },
+    "accent": {
+      "dark": "vv7",
+      "light": "vv8"
+    },
+    "error": {
+      "dark": "nord11",
+      "light": "nord11"
+    },
+    "warning": {
+      "dark": "nord12",
+      "light": "nord12"
+    },
+    "success": {
+      "dark": "nord14",
+      "light": "nord14"
+    },
+    "info": {
+      "dark": "nord8",
+      "light": "nord10"
+    },
+    "text": {
+      "dark": "nord4",
+      "light": "nord0"
+    },
+    "textMuted": {
+      "dark": "nord3",
+      "light": "nord1"
+    },
+    "background": {
+      "dark": "vv0",
+      "light": "nord6"
+    },
+    "backgroundPanel": {
+      "dark": "vv1",
+      "light": "nord5"
+    },
+    "backgroundElement": {
+      "dark": "vv2",
+      "light": "nord4"
+    },
+    "border": {
+      "dark": "vv3",
+      "light": "nord3"
+    },
+    "borderActive": {
+      "dark": "vv5",
+      "light": "nord2"
+    },
+    "borderSubtle": {
+      "dark": "vv2",
+      "light": "nord3"
+    },
+    "diffAdded": {
+      "dark": "nord14",
+      "light": "nord14"
+    },
+    "diffRemoved": {
+      "dark": "nord11",
+      "light": "nord11"
+    },
+    "diffContext": {
+      "dark": "nord3",
+      "light": "nord3"
+    },
+    "diffHunkHeader": {
+      "dark": "nord3",
+      "light": "nord3"
+    },
+    "diffHighlightAdded": {
+      "dark": "nord14",
+      "light": "nord14"
+    },
+    "diffHighlightRemoved": {
+      "dark": "nord11",
+      "light": "nord11"
+    },
+    "diffAddedBg": {
+      "dark": "#1a2e1a",
+      "light": "#E5E9F0"
+    },
+    "diffRemovedBg": {
+      "dark": "#2e1a1a",
+      "light": "#E5E9F0"
+    },
+    "diffContextBg": {
+      "dark": "vv1",
+      "light": "nord5"
+    },
+    "diffLineNumber": {
+      "dark": "vv4",
+      "light": "nord4"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#1a2e1a",
+      "light": "#E5E9F0"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#2e1a1a",
+      "light": "#E5E9F0"
+    },
+    "markdownText": {
+      "dark": "nord4",
+      "light": "nord0"
+    },
+    "markdownHeading": {
+      "dark": "vv7",
+      "light": "vv9"
+    },
+    "markdownLink": {
+      "dark": "vv8",
+      "light": "vv9"
+    },
+    "markdownLinkText": {
+      "dark": "vv7",
+      "light": "vv8"
+    },
+    "markdownCode": {
+      "dark": "nord14",
+      "light": "nord14"
+    },
+    "markdownBlockQuote": {
+      "dark": "nord3",
+      "light": "nord3"
+    },
+    "markdownEmph": {
+      "dark": "nord12",
+      "light": "nord12"
+    },
+    "markdownStrong": {
+      "dark": "nord13",
+      "light": "nord13"
+    },
+    "markdownHorizontalRule": {
+      "dark": "nord3",
+      "light": "nord3"
+    },
+    "markdownListItem": {
+      "dark": "nord8",
+      "light": "nord10"
+    },
+    "markdownListEnumeration": {
+      "dark": "vv7",
+      "light": "vv8"
+    },
+    "markdownImage": {
+      "dark": "nord9",
+      "light": "nord9"
+    },
+    "markdownImageText": {
+      "dark": "vv7",
+      "light": "vv8"
+    },
+    "markdownCodeBlock": {
+      "dark": "nord4",
+      "light": "nord0"
+    },
+    "syntaxComment": {
+      "dark": "nord3",
+      "light": "nord3"
+    },
+    "syntaxKeyword": {
+      "dark": "vv7",
+      "light": "vv8"
+    },
+    "syntaxFunction": {
+      "dark": "nord8",
+      "light": "nord8"
+    },
+    "syntaxVariable": {
+      "dark": "vv11",
+      "light": "vv9"
+    },
+    "syntaxString": {
+      "dark": "nord14",
+      "light": "nord14"
+    },
+    "syntaxNumber": {
+      "dark": "nord15",
+      "light": "nord15"
+    },
+    "syntaxType": {
+      "dark": "vv7",
+      "light": "vv8"
+    },
+    "syntaxOperator": {
+      "dark": "vv7",
+      "light": "vv8"
+    },
+    "syntaxPunctuation": {
+      "dark": "nord4",
+      "light": "nord0"
+    }
+  }
+}
