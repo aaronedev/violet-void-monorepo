@@ -1,104 +1,69 @@
 ## Scout Results - 2026-03-16
 
 ### Priority Queue
-- archwiki: 568 unchecked
-- obsidian: 1 unchecked
-- nvim: 15 unchecked
+
+#### CSS/Stylus Themes (Highest)
+- archwiki: 567 unchecked (**Collaborative Editing Indicators** (CSS))
+- obsidian: 1 unchecked (**Plugin Compatibility**)
+
+#### Terminal Themes
+- nvim: 15 unchecked (Test theme with all 70+ supported plugins)
+- vim: 7 unchecked (Replace stub LICENSE file with full MIT license text)
+- helix: 7 unchecked (Replace stub LICENSE file with full MIT license text)
+- kitty: 7 unchecked (Replace stub LICENSE file with full MIT license text)
+- alacritty: 7 unchecked (Replace stub LICENSE file with full MIT license text)
+- wezterm: 7 unchecked (Replace stub LICENSE file with full MIT license text)
+
+#### Other Apps
 - slack: 8 unchecked
-- windows_terminal: 7 unchecked
-- iterm: 7 unchecked
-- termux: 7 unchecked
-- alacritty: 7 unchecked
-- dunst: 7 unchecked
-- dircolors: 7 unchecked
-- spotify_player: 7 unchecked
-- delta: 7 unchecked
-- helix: 7 unchecked
-- xfceterm: 7 unchecked
 - zellij: 7 unchecked
-- gitui: 7 unchecked
-- gnome_terminal: 7 unchecked
-- cava: 7 unchecked
-- lua: 7 unchecked
-- foot: 7 unchecked
-- fuzzel: 7 unchecked
-- terminator: 7 unchecked
-- process_compose: 7 unchecked
-- xresources: 7 unchecked
-- wezterm: 7 unchecked
 - zathura: 7 unchecked
-- prism: 7 unchecked
+- xresources: 7 unchecked
+- xfceterm: 7 unchecked
+- windows_terminal: 7 unchecked
 - vimium: 7 unchecked
-- vim: 7 unchecked
-- fish: 7 unchecked
 - tmux: 7 unchecked
 - tilix: 7 unchecked
-- fish_themes: 7 unchecked
-- kitty: 7 unchecked
+- termux: 7 unchecked
+- terminator: 7 unchecked
 - st: 7 unchecked
-- geizhals: 6 unchecked
-- clipse: 5 unchecked
+- spotify_player: 7 unchecked
+- process_compose: 7 unchecked
+- prism: 7 unchecked
+- lua: 7 unchecked
+- iterm: 7 unchecked
+- gnome_terminal: 7 unchecked
+- gitui: 7 unchecked
+- fuzzel: 7 unchecked
+- foot: 7 unchecked
+- fish_themes: 7 unchecked
+- fish: 7 unchecked
+- dunst: 7 unchecked
+- discord: 7 unchecked
+- dircolors: 7 unchecked
+- delta: 7 unchecked
+- cava: 7 unchecked
+- wofi: 5 unchecked
+- waybar: 5 unchecked
 - tailspin: 5 unchecked
 - rofi: 5 unchecked
-- waybar: 5 unchecked
-- aerc: 5 unchecked
+- geizhals: 5 unchecked
 - eza: 5 unchecked
-- wofi: 5 unchecked
-- telegram: 2 unchecked
-- discord: 7 unchecked
+- clipse: 5 unchecked
 - atuin: 5 unchecked
+- aerc: 5 unchecked
+- telegram: 2 unchecked
 
 ### Top Item Per Theme
 - archwiki: **Collaborative Editing Indicators** (CSS)
 - obsidian: **Plugin Compatibility**
 - nvim: Test theme with all 70+ supported plugins
-- slack: Replace stub LICENSE file with full MIT license text
-- windows_terminal: Replace stub LICENSE file with full MIT license text
-- iterm: Replace stub LICENSE file with full MIT license text
-- termux: Replace stub LICENSE file with full MIT license text
-- alacritty: Replace stub LICENSE file with full MIT license text
-- dunst: Replace stub LICENSE file with full MIT license text
-- dircolors: Replace stub LICENSE file with full MIT license text
-- spotify_player: Replace stub LICENSE file with full MIT license text
-- delta: Replace stub LICENSE file with full MIT license text
-- helix: Replace stub LICENSE file with full MIT license text
-- xfceterm: Replace stub LICENSE file with full MIT license text
-- zellij: Replace stub LICENSE file with full MIT license text
-- gitui: Replace stub LICENSE file with full MIT license text
-- gnome_terminal: Replace stub LICENSE file with full MIT license text
-- cava: Replace stub LICENSE file with full MIT license text
-- lua: Replace stub LICENSE file with full MIT license text
-- foot: Replace stub LICENSE file with full MIT license text
-- fuzzel: Replace stub LICENSE file with full MIT license text
-- terminator: Replace stub LICENSE file with full MIT license text
-- process_compose: Replace stub LICENSE file with full MIT license text
-- xresources: Replace stub LICENSE file with full MIT license text
-- wezterm: Replace stub LICENSE file with full MIT license text
-- zathura: Replace stub LICENSE file with full MIT license text
-- prism: Replace stub LICENSE file with full MIT license text
-- vimium: Replace stub LICENSE file with full MIT license text
 - vim: Replace stub LICENSE file with full MIT license text
-- fish: Replace stub LICENSE file with full MIT license text
-- tmux: Replace stub LICENSE file with full MIT license text
-- tilix: Replace stub LICENSE file with full MIT license text
-- fish_themes: Replace stub LICENSE file with full MIT license text
+- helix: Replace stub LICENSE file with full MIT license text
 - kitty: Replace stub LICENSE file with full MIT license text
-- st: Replace stub LICENSE file with full MIT license text
-- geizhals: **Accessibility Review**
-- clipse: Add screenshot or preview image showing the theme in action
-- tailspin: Add screenshot or preview image showing the theme in action
-- rofi: Add screenshot or preview image showing the theme in action
-- waybar: Add screenshot or preview image showing the theme in action
-- aerc: Add screenshot or preview image showing the theme in action
-- eza: Add screenshot or preview image showing the theme in action
-- wofi: Add screenshot or preview image showing the theme in action
-- telegram: **Platform Variants**
-- discord: Replace stub LICENSE file with full MIT license text
-- atuin: Add screenshot or preview image showing the theme in action
+- alacritty: Replace stub LICENSE file with full MIT license text
+- wezterm: Replace stub LICENSE file with full MIT license text
+- slack: Replace stub LICENSE file with full MIT license text
 
-### Stats
-- Themes with TODOs: 46
-- Total unchecked: 864
-- CSS/Stylus: 2
-- Terminal: 42
-- Other: 2
+---
+*Generated by violet-scout-15m cron*
