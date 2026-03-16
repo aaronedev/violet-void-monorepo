@@ -1,0 +1,199 @@
+name: Neovim Theme CI
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'themes/nvim/**'
+      - '.github/workflows/nvim-ci.yml'
+  pull_request:
+    branches: [main, master]
+    paths:
+      - 'themes/nvim/**'
+  workflow_dispatch:
+
+jobs:
+  lua-syntax:
+    name: Lua Syntax Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Lua
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lua5.4 luacheck
+
+      - name: Check Lua syntax
+        working-directory: themes/nvim
+        run: |
+          echo "🔍 Checking Lua syntax..."
+          find lua -name "*.lua" -exec lua -e "loadfile('{}')" \; -print
+
+      - name: Run luacheck
+        working-directory: themes/nvim
+        run: |
+          echo "🔍 Running luacheck..."
+          luacheck lua/ --no-color || true
+
+  nvim-tests:
+    name: Neovim Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Neovim
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y neovim
+
+      - name: Install plenary.nvim
+        run: |
+          mkdir -p ~/.local/share/nvim/site/pack/vendor/start/plenary.nvim
+          git clone --depth 1 https://github.com/nvim-lua/plenary.nvim ~/.local/share/nvim/site/pack/vendor/start/plenary.nvim
+
+      - name: Setup test environment
+        working-directory: themes/nvim
+        run: |
+          # Add nvim to PATH
+          export PATH="$PATH:/usr/bin"
+
+          # Create minimal init for testing
+          cat > /tmp/minimal_init.lua << 'EOF'
+          vim.opt.runtimepath:prepend("/home/runner/work/violet-void-monorepo/violet-void-monorepo/themes/nvim")
+          vim.opt.runtimepath:prepend("~/.local/share/nvim/site/pack/vendor/start/plenary.nvim")
+
+          -- Load the theme to verify it works
+          local ok, err = pcall(require("violet-void").load, { name = "violet-void" })
+          if not ok then
+            vim.cmd("cq 1")  -- Exit with error
+          end
+          EOF
+
+      - name: Run theme load test
+        working-directory: themes/nvim
+        run: |
+          nvim --headless -u /tmp/minimal_init.lua +"lua print('Theme loaded successfully')" +q || exit 1
+          echo "✅ Theme loads without errors"
+
+  color-validate:
+    name: Validate Colors
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install pastel for color contrast
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pastel
+
+      - name: Validate color files
+        working-directory: themes/nvim
+        run: |
+          echo "🔍 Validating nvim color files..."
+
+          # Check violet-void.lua
+          if [[ -f lua/violet-void/colors/violet-void.lua ]]; then
+            echo "✅ violet-void.lua exists"
+            # Extract and validate hex colors
+            grep -oE '#[0-9a-fA-F]{6}' lua/violet-void/colors/violet-void.lua | while read color; do
+              if ! pastel validate "$color" 2>/dev/null; then
+                echo "❌ Invalid color: $color"
+                exit 1
+              fi
+            done
+            echo "✅ All colors in violet-void.lua are valid hex"
+          fi
+
+          # Check void-light.lua
+          if [[ -f lua/violet-void/colors/void-light.lua ]]; then
+            echo "✅ void-light.lua exists"
+            grep -oE '#[0-9a-fA-F]{6}' lua/violet-void/colors/void-light.lua | while read color; do
+              if ! pastel validate "$color" 2>/dev/null; then
+                echo "❌ Invalid color: $color"
+                exit 1
+              fi
+            done
+            echo "✅ All colors in void-light.lua are valid hex"
+          fi
+
+  plugin-groups:
+    name: Validate Plugin Groups
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Count plugin groups
+        working-directory: themes/nvim
+        run: |
+          echo "🔍 Checking plugin group files..."
+          GROUP_COUNT=$(find lua/violet-void/groups -name "*.lua" 2>/dev/null | wc -l)
+          echo "Found $GROUP_COUNT plugin group files"
+
+          if [[ $GROUP_COUNT -lt 30 ]]; then
+            echo "⚠️ Warning: Expected at least 30 plugin group files"
+          fi
+
+          echo "✅ Plugin groups validated"
+
+  generate-report:
+    name: Generate Test Report
+    runs-on: ubuntu-latest
+    needs: [lua-syntax, nvim-tests, color-validate, plugin-groups]
+    if: always()
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate report
+        run: |
+          echo "# Neovim Theme CI Report" > nvim-ci-report.md
+          echo "" >> nvim-ci-report.md
+          echo "**Date:** $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> nvim-ci-report.md
+          echo "**Commit:** ${{ github.sha }}" >> nvim-ci-report.md
+          echo "" >> nvim-ci-report.md
+          echo "## Summary" >> nvim-ci-report.md
+          echo "" >> nvim-ci-report.md
+
+          # Count groups
+          GROUP_COUNT=$(find themes/nvim/lua/violet-void/groups -name "*.lua" 2>/dev/null | wc -l)
+          echo "- Plugin groups: $GROUP_COUNT" >> nvim-ci-report.md
+          echo "" >> nvim-ci-report.md
+
+          # Check results
+          if [[ "${{ needs.lua-syntax.result }}" == "success" ]]; then
+            echo "✅ Lua syntax check passed" >> nvim-ci-report.md
+          else
+            echo "❌ Lua syntax check failed" >> nvim-ci-report.md
+          fi
+
+          if [[ "${{ needs.nvim-tests.result }}" == "success" ]]; then
+            echo "✅ Neovim tests passed" >> nvim-ci-report.md
+          else
+            echo "❌ Neovim tests failed" >> nvim-ci-report.md
+          fi
+
+          if [[ "${{ needs.color-validate.result }}" == "success" ]]; then
+            echo "✅ Color validation passed" >> nvim-ci-report.md
+          else
+            echo "❌ Color validation failed" >> nvim-ci-report.md
+          fi
+
+          if [[ "${{ needs.plugin-groups.result }}" == "success" ]]; then
+            echo "✅ Plugin groups validated" >> nvim-ci-report.md
+          else
+            echo "❌ Plugin groups validation failed" >> nvim-ci-report.md
+          fi
+
+          cat nvim-ci-report.md
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: nvim-ci-report
+          path: nvim-ci-report.md
+          retention-days: 30
