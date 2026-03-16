@@ -1,28 +1,17 @@
 ## Scout Results - 2026-03-16
 
 ### Priority Queue
-
-#### CSS/Stylus Themes (Priority 1)
-- archwiki: 563 unchecked (highest priority items)
-- obsidian: 1 unchecked
-
-#### Terminal Themes (Priority 2)
+- archwiki: 561 unchecked (highest priority items)
 - nvim: 12 unchecked
-- vim: 7 unchecked
-- kitty: 7 unchecked
-- helix: 7 unchecked
-- alacritty: 7 unchecked
-- wezterm: 7 unchecked
-
-#### Other Themes (Priority 3)
 - slack: 8 unchecked
-- geizhals: 6 unchecked
 - zellij: 7 unchecked
 - zathura: 7 unchecked
 - xresources: 7 unchecked
 - xfceterm: 7 unchecked
 - windows_terminal: 7 unchecked
+- wezterm: 7 unchecked
 - vimium: 7 unchecked
+- vim: 7 unchecked
 - tmux: 7 unchecked
 - tilix: 7 unchecked
 - termux: 7 unchecked
@@ -32,7 +21,9 @@
 - process_compose: 7 unchecked
 - prism: 7 unchecked
 - lua: 7 unchecked
+- kitty: 7 unchecked
 - iterm: 7 unchecked
+- helix: 7 unchecked
 - gnome_terminal: 7 unchecked
 - gitui: 7 unchecked
 - fuzzel: 7 unchecked
@@ -44,33 +35,31 @@
 - dircolors: 7 unchecked
 - delta: 7 unchecked
 - cava: 7 unchecked
-- telegram: 2 unchecked
-- tailspin: 5 unchecked
-- rofi: 5 unchecked
+- alacritty: 7 unchecked
 - wofi: 5 unchecked
 - waybar: 5 unchecked
+- tailspin: 5 unchecked
+- rofi: 5 unchecked
+- geizhals: 5 unchecked
 - eza: 5 unchecked
 - clipse: 5 unchecked
 - atuin: 5 unchecked
 - aerc: 5 unchecked
+- telegram: 2 unchecked
+- obsidian: 1 unchecked
 
 ### Top Item Per Theme
 - archwiki: **Collaborative Editing Indicators** (CSS)
-- obsidian: **Plugin Compatibility**
 - nvim: Test theme with all 70+ supported plugins
-- vim: Replace stub LICENSE file with full MIT license text
-- kitty: Replace stub LICENSE file with full MIT license text
-- helix: Replace stub LICENSE file with full MIT license text
-- alacritty: Replace stub LICENSE file with full MIT license text
-- wezterm: Replace stub LICENSE file with full MIT license text
 - slack: Replace stub LICENSE file with full MIT license text
-- geizhals: **Accessibility Review**
 - zellij: Replace stub LICENSE file with full MIT license text
 - zathura: Replace stub LICENSE file with full MIT license text
 - xresources: Replace stub LICENSE file with full MIT license text
 - xfceterm: Replace stub LICENSE file with full MIT license text
 - windows_terminal: Replace stub LICENSE file with full MIT license text
+- wezterm: Replace stub LICENSE file with full MIT license text
 - vimium: Replace stub LICENSE file with full MIT license text
+- vim: Replace stub LICENSE file with full MIT license text
 - tmux: Replace stub LICENSE file with full MIT license text
 - tilix: Replace stub LICENSE file with full MIT license text
 - termux: Replace stub LICENSE file with full MIT license text
@@ -80,7 +69,9 @@
 - process_compose: Replace stub LICENSE file with full MIT license text
 - prism: Replace stub LICENSE file with full MIT license text
 - lua: Replace stub LICENSE file with full MIT license text
+- kitty: Replace stub LICENSE file with full MIT license text
 - iterm: Replace stub LICENSE file with full MIT license text
+- helix: Replace stub LICENSE file with full MIT license text
 - gnome_terminal: Replace stub LICENSE file with full MIT license text
 - gitui: Replace stub LICENSE file with full MIT license text
 - fuzzel: Replace stub LICENSE file with full MIT license text
@@ -92,12 +83,19 @@
 - dircolors: Replace stub LICENSE file with full MIT license text
 - delta: Replace stub LICENSE file with full MIT license text
 - cava: Replace stub LICENSE file with full MIT license text
-- telegram: **Platform Variants**
-- tailspin: Add screenshot or preview image showing the theme in action
-- rofi: Add screenshot or preview image showing the theme in action
+- alacritty: Replace stub LICENSE file with full MIT license text
 - wofi: Add screenshot or preview image showing the theme in action
 - waybar: Add screenshot or preview image showing the theme in action
+- tailspin: Add screenshot or preview image showing the theme in action
+- rofi: Add screenshot or preview image showing the theme in action
+- geizhals: **Accessibility Review**
 - eza: Add screenshot or preview image showing the theme in action
 - clipse: Add screenshot or preview image showing the theme in action
 - atuin: Add screenshot or preview image showing the theme in action
 - aerc: Add screenshot or preview image showing the theme in action
+- telegram: **Platform Variants**
+- obsidian: **Plugin Compatibility**
+- tridactyl: (no unchecked items)
+- netcup: (no unchecked items)
+- crackboard: (no unchecked items)
+- chatgpt: (no unchecked items)
